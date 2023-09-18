@@ -1,0 +1,171 @@
+﻿{
+  "$type": "LevelInfo, Assembly-CSharp",
+  "Objets": {
+    "$type": "System.Collections.Generic.List`1[[LMJMapData, Assembly-CSharp]], mscorlib",
+    "$values": [
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "Cube",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 2.814,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.8935091,
+            "y": 0.3175228,
+            "z": 0.3175228,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 3.14938021,
+          "sqrMagnitude": 9.918595
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "Cube",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 1.085,
+          "z": 0.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 1.085,
+          "sqrMagnitude": 1.17722511
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": -0.458883166,
+          "y": 0.0603560768,
+          "z": 0.0312638171,
+          "w": 0.8858928,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 305.232635,
+            "y": 7.795102,
+            "z": 7.39969664E-07,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.9996741,
+              "y": 0.02552991,
+              "z": 2.42349074E-09,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 305.332153,
+            "sqrMagnitude": 93227.73
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 2.814,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.8935091,
+            "y": 0.3175228,
+            "z": 0.3175228,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 3.14938021,
+          "sqrMagnitude": 9.918595
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "Cylinder",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 6.421147E-08,
+          "y": 1.341,
+          "z": -1.29,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 3.450843E-08,
+            "y": 0.720678151,
+            "z": -0.6932698,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 1.86074734,
+          "sqrMagnitude": 3.462381
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.245170474,
+          "y": 0.474585831,
+          "z": -0.139550909,
+          "w": 0.8337777,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 32.7717133,
+            "y": 59.29702,
+            "z": -1.0153891E-06,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.483712226,
+              "y": 0.875227153,
+              "z": -1.49871973E-08,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.00000012
+            },
+            "magnitude": 67.7504349,
+            "sqrMagnitude": 4590.12158
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      }
+    ]
+  },
+  "name": "",
+  "hideFlags": 0
+}
