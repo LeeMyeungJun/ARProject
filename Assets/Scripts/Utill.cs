@@ -3,9 +3,48 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System.Text;
+using System.Runtime.Serialization.Formatters.Binary;
+using System;
 
 public class Util 
 {
+    public static T LoadData<T>(string _path)
+    {
+        //string path = Application.persistentDataPath + "/save.dat";
+        string path = Application.persistentDataPath + _path;
+
+        FileStream fs = null;
+        try
+        {
+            fs = new FileStream(path, FileMode.Open);
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("저장된파일없음");
+            return default(T);
+        }
+
+        BinaryFormatter bt = new BinaryFormatter();
+        T Data = (T)bt.Deserialize(fs);
+        //money = Data.money;
+        //att_power = Data.power;
+        //cur_Stage = Data.curStage;
+        //base_life = Data.base_life;
+        //maxCreate = Data.maxCreate;
+        fs.Close();
+        return Data;
+    }
+    public static void SaveData<T>(T _info,string _path)
+    {
+        //string path = Application.persistentDataPath + "/save.dat";
+        string path = Application.persistentDataPath + _path;
+
+        FileStream fs = new FileStream(path, FileMode.Create);
+        BinaryFormatter bf = new BinaryFormatter();
+
+        bf.Serialize(fs, _info);
+        fs.Close();
+    }
     public static void GlobalTime(float _scale)
     {
         Time.timeScale = _scale;

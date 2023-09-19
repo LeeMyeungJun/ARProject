@@ -41,6 +41,7 @@ public class MapEditor : EditorWindow
             if (!check)
             {
                 Debug.Log("맵저장중... 기다려주세요");
+                DestroyMap();
                 SaveMap();
                 AssetDatabase.Refresh();
             }
@@ -49,7 +50,7 @@ public class MapEditor : EditorWindow
                 Debug.LogError("중복된 맵이름 파일이있습니다");
             }
         }
-    
+
 
         // ============================================================================
         GUILayout.Space(30f);
@@ -68,14 +69,13 @@ public class MapEditor : EditorWindow
         {
             DestroyMap();
         }
-
-
     }
 
     private void DestroyMap()
     {
         GameObject mapParent = GameObject.Find("MapParent");
-        DestroyImmediate(mapParent);
+        if (mapParent != null)
+            DestroyImmediate(mapParent);
         GameObject baseObj = new GameObject("MapParent");
         Undo.RegisterCreatedObjectUndo(baseObj, "Create Map");
         Selection.activeObject = baseObj;
@@ -84,8 +84,8 @@ public class MapEditor : EditorWindow
 
     void SaveMap()
     {
-        GameObject mapParent =  GameObject.Find("MapParent");
-        if(mapParent == null)
+        GameObject mapParent = GameObject.Find("MapParent");
+        if (mapParent == null)
         {
             Debug.LogError("Find Misiing Create Please GameObject Name 'MapParent'");
             return;
@@ -142,7 +142,7 @@ public class MapEditor : EditorWindow
 
         //Selection.activeObject = baseObj;
         GameObject baseObj = GameObject.Find("MapParent");
-        if(baseObj == null)
+        if (baseObj == null)
         {
             Debug.LogError("Missing MapParent Obj :: Please Create EmptyObject Name: MapParent");
             return;
@@ -154,7 +154,6 @@ public class MapEditor : EditorWindow
         //Transform[] transforms = new Transform[baseObj.transform.childCount];
         //for(int i = 0; i <baseObj.transform.childCount;i++)
         //    transforms[i] = baseObj.transform.GetChild(i);
-
         //for (int i = 0; i < transforms.Length; i++)
         //{
         //    Destroy(transforms[i]);
@@ -166,10 +165,10 @@ public class MapEditor : EditorWindow
             TypeNameHandling = TypeNameHandling.All
         });
 
-        for(int i = 0; i < levelInfo.Objets.Count; i++)
+        for (int i = 0; i < levelInfo.Objets.Count; i++)
         {
-            string name =  levelInfo.Objets[i].meshName;
-            GameObject obj =  Instantiate(Resources.Load<GameObject>("Prefabs/Map/" + name));
+            string name = levelInfo.Objets[i].meshName;
+            GameObject obj = Instantiate(Resources.Load<GameObject>("Prefabs/Map/" + name));
             obj.transform.position = levelInfo.Objets[i].pos;
             obj.transform.rotation = levelInfo.Objets[i].rot;
             obj.transform.localScale = levelInfo.Objets[i].scale;
