@@ -20,18 +20,27 @@ public class GameManager : MonoSingle<GameManager>
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
         player.SetData(gameInfo.atkSpeed, gameInfo.atkDmg);
         castle.SetData(gameInfo.castleHP);//3번
-
+        curmoney = gameInfo.curmoney;
         //맵.. Load 해주고 
         //맵 .. AI 가 걸어다닐수있게끔 Bake 해줘야함
 
     }
 
+    public bool BuyItem(int _Price)
+    {
+        if(curmoney >= _Price)
+        {
+            curmoney -= _Price;
+            return true; //구매성공
+        }
+        return false; // 구매실패
+    }
     public void CheckGoal()
     {
 
     }
 
-    private void LoadData()
+    void LoadData()
     {
         if (gameInfo == null)
             gameInfo = new GameInfo();
