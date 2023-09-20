@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
+    float atkDmg = 5.0f;
+    float atkSpeed = 0.1f;
     public Transform effect_hit;    // 데미지 효과
     public float delay; // 공격속도 딜레이
 
@@ -27,11 +28,15 @@ public class Player : MonoBehaviour
 
     void Btn_Atk()
     {
-
+        //delay = GameObject.Find("GameInfo").GetComponent<attackDmg>;
     }
 
     public void SetData(float _speed, float _dmg)
     {
-
+        atkDmg = _dmg;
+        atkSpeed = _speed;
     }
+
+    public float GetAttackSpeed() { return atkSpeed; }
+    public float GetAttackDmg() { return atkDmg; }
 }
