@@ -64,9 +64,9 @@ public class Enemy : MonoBehaviour
         }
         return;
     }
-    public void OnTakePlayerDamage() 
+    public void OnTakePlayerDamage(float _dmg) 
     {
-        //_health -= //플레이어 무기 데이지
+        _health -= _dmg;
         if (_health <= 0)
         {
             Destroy(this.gameObject);
