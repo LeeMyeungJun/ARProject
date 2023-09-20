@@ -8,8 +8,8 @@ public enum EnemyType {walkenemy,runenemy,bossenemy}
 enum EnemyState {move,attack}
 public class Enemy : MonoBehaviour
 {
-   // EnemyType enemyType = EnemyType.walkenemy;
-  //  EnemyState enemyState = EnemyState.move;
+    // EnemyType enemyType = EnemyType.walkenemy; 
+    //  EnemyState enemyState = EnemyState.move;  -> 미사용으로 주석처리 - LJS
     [SerializeField] float _health;
     GameObject target;
     NavMeshAgent agent;
@@ -19,10 +19,10 @@ public class Enemy : MonoBehaviour
         SetStatus(EnemyType.walkenemy, GameObject.Find("Castle"));
         agent.destination = target.transform.position;
     }
-    public void SetStatus(EnemyType _type,GameObject _target)
+    public void SetStatus(EnemyType _type, GameObject _target)
     {
         target = _target;
-        switch (_type) 
+        switch (_type)
         {
             case EnemyType.walkenemy:
                 agent.speed = 5f;
@@ -38,8 +38,7 @@ public class Enemy : MonoBehaviour
                 break;
         }
     }
-
-    /*void EnemyMove()
+    /*void EnemyMove() 삭제 예정
     {
         switch (enemyState) 
         { 
@@ -51,7 +50,7 @@ public class Enemy : MonoBehaviour
                 break;
         }
     }*/
-    
+
     private void OnCollisionEnter(Collision collusion)
     {
         if (collusion.transform.name == "Castle")
@@ -62,4 +61,11 @@ public class Enemy : MonoBehaviour
         }
         return;
     }
+    private void EnermyDamage() 
+    {
+
+    }
+    
+
+
 }
