@@ -820,8 +820,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f49b3ea8d605f5d4bab5d009c5073c2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _health: 0
   pos:
-  - {fileID: 2280672754603401722, guid: 0d998157660067a4bb032173b96ce26f, type: 3}
+  - {fileID: 151522308126577580, guid: 5ea5a029abe39e5498b81d423f92ca0f, type: 3}
 --- !u!4 &522007826
 Transform:
   m_ObjectHideFlags: 0

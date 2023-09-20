@@ -13,11 +13,14 @@ public class Enemy : MonoBehaviour
     [SerializeField] float _health;
     GameObject target;
     NavMeshAgent agent;
+    private float enemyDamage;
+    
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         SetStatus(EnemyType.walkenemy, GameObject.Find("Castle"));
         agent.destination = target.transform.position;
+        
     }
     public void SetStatus(EnemyType _type, GameObject _target)
     {
@@ -27,29 +30,20 @@ public class Enemy : MonoBehaviour
             case EnemyType.walkenemy:
                 agent.speed = 5f;
                 _health = 100f;
+                enemyDamage = 10;
                 break;
             case EnemyType.runenemy:
                 agent.speed = 10f;
                 _health = 200f;
+                enemyDamage = 20;
                 break;
             case EnemyType.bossenemy:
                 agent.speed = 15f;
                 _health = 300f;
+                enemyDamage = 50;
                 break;
         }
     }
-    /*void EnemyMove() 삭제 예정
-    {
-        switch (enemyState) 
-        { 
-            case EnemyState.move:
-                agent.destination = target.transform.position;
-                break;
-            case EnemyState.attack:
-                agent.destination = target.transform.position;
-                break;
-        }
-    }*/
 
     private void OnCollisionEnter(Collision collusion)
     {
@@ -57,15 +51,20 @@ public class Enemy : MonoBehaviour
         {
             Debug.Log($"{ _health}");
             Debug.Log("도착");
-            //enemyState = EnemyState.attack;
         }
         return;
     }
-    private void EnermyDamage() 
+    private void EnemyCastleDamage() 
+    {
+        //GameObject Castlehealth = GameObject.Find("Castle");
+        //Castlehealth.
+        //Debug.Log($"{_Castlehealth.GetComponent<Castle>()}");
+       // GameManager.Instance.CastleDamage();
+    }
+    public void EnemyPlayerDamage() 
     {
 
     }
-    
 
 
 }

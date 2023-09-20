@@ -4,14 +4,11 @@ using UnityEngine;
 
 public class Castle : MonoBehaviour
 {
-    protected  float _health;
-    void Start()
-    {
-             _health = 1000f;
-      }
+    private  float health = 1000;
 
-    void Update()
+    public void OnTakeDamage(float _dmg)
     {
-        
+         health -= _dmg;
+
     }
 }
