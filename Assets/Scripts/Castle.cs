@@ -14,8 +14,8 @@ public class Castle : MonoBehaviour
     {
         return health;
     }
-    public void SetData() 
+    public void SetData(float _health) 
     {
-         //health = gameinfo.castleHP;
+         health = _health;
     }
 }
