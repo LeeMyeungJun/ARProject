@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public enum make_state {init, spawn,end}
-public class EnemySpanwer : Enemy
+public class EnemySpanwer : MonoBehaviour
 {
     [SerializeField] private Transform[] pos;
     private float waitSpawnTime = 0;

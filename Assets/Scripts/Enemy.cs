@@ -9,28 +9,25 @@ enum EnemyState {move,attack}
 public class Enemy : MonoBehaviour
 {
     EnemyState enemyState = EnemyState.move;  
-    [SerializeField] float _health;
+    float _health;
     GameObject target;
     NavMeshAgent agent;
     private float enemyDamage;
-    private bool attackAble = false;
-    
+    private bool attackAble = true;
+
+    private void Awake()
+    {
+        agent = GetComponent<NavMeshAgent>();
+    }
     void Start()
     {
-
-        agent = GetComponent<NavMeshAgent>();
+        SetStatus(EnemyType.runenemy, GameObject.Find("Castle"));
         agent.destination = target.transform.position;
-
     }
-    private void Update()
+    void Update()
     {
-        if (enemyState == EnemyState.move)
+        if (enemyState == EnemyState.attack && attackAble == true)
         {
-            SetStatus(EnemyType.walkenemy, GameObject.Find("Castle"));
-        }
-        else if (enemyState == EnemyState.attack)
-        {
-            attackAble = true;
             StartCoroutine("AttackCastle");
         }
     }
@@ -51,7 +48,7 @@ public class Enemy : MonoBehaviour
                     enemyDamage = 20;
                     break;
                 case EnemyType.bossenemy:
-                    agent.speed = 15f;
+                    agent.speed = 20f;
                     _health = 300f;
                     enemyDamage = 50;
                     break;
@@ -67,23 +64,21 @@ public class Enemy : MonoBehaviour
         }
         return;
     }
-    private void EnemyCastleDamage() 
+    public void OnTakePlayerDamage() 
     {
-        //GameObject Castlehealth = GameObject.Find("Castle");
-        //Castlehealth.
-        //Debug.Log($"{_Castlehealth.GetComponent<Castle>()}");
-       // GameManager.Instance.CastleDamage(); - GameManager에 묶이면 추가
-    }
-    public void EnemyPlayerDamage() 
-    {
-
+        //_health -= //플레이어 무기 데이지
+        if (_health <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+        else return;
     }
     IEnumerator AttackCastle ()
     {
         attackAble = false;
-        Debug.Log("공격");
-        // GameManager.Instance.CastleDamage(enemyDamage);
         yield return new WaitForSeconds(1.6f);
+        //GameManager.Instance.OnTakeDamage(enemyDamage); // 추후 추가
+        Debug.Log("공격");
         attackAble = true;
     }
 
