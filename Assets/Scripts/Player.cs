@@ -5,32 +5,34 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     float atkDmg = 5.0f;
-    float atkSpeed = 0.1f;
-    public Transform effect_hit;    // 데미지 효과
-    public float delay; // 공격속도 딜레이
+    float atkSpeed = 1.0f;
+    [SerializeField] Transform effect_hit;    // 데미지 효과
+    float delay = 0;
 
     void AttackEnemy()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit other;
             if (Physics.Raycast(ray, out other, 100f))
             {
                 if (other.transform.tag == "Enemy")
                 {
-                    Instantiate(effect_hit, other.point, Quaternion.identity);
-                    //other.transform.GetComponent<Enemy>().      (GameInfo.attackDmg);
+                        delay = 0;
+                        Instantiate(effect_hit, other.point, Quaternion.identity);
+                        //other.transform.GetComponent<Enemy>().      (GameInfo.attackDmg);
                 }
             }
+    }
+
+    private void Update()
+    {
+        delay += Time.deltaTime;
+        if(delay > atkSpeed && Input.GetMouseButtonDown(0) )
+        {
+            //delay = 0;
+            AttackEnemy();
         }
     }
-
-    void Btn_Atk()
-    {
-        //delay = GameObject.Find("GameInfo").GetComponent<attackDmg>;
-    }
-
     public void SetData(float _speed, float _dmg)
     {
         atkDmg = _dmg;
