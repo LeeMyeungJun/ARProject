@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5778511690076834400
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4915899997918970868, guid: 00476b9bd0220034fa69c30bd723bb2b, type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 4915899997918970868, guid: 00476b9bd0220034fa69c30bd723bb2b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 25.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 4915899997918970868, guid: 00476b9bd0220034fa69c30bd723bb2b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4915899997918970868, guid: 00476b9bd0220034fa69c30bd723bb2b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 4915899997918970868, guid: 00476b9bd0220034fa69c30bd723bb2b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4915899997918970868, guid: 00476b9bd0220034fa69c30bd723bb2b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4915899997918970868, guid: 00476b9bd0220034fa69c30bd723bb2b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4915899997918970868, guid: 00476b9bd0220034fa69c30bd723bb2b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4915899997918970868, guid: 00476b9bd0220034fa69c30bd723bb2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4915899997918970868, guid: 00476b9bd0220034fa69c30bd723bb2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4915899997918970868, guid: 00476b9bd0220034fa69c30bd723bb2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7075566689925690928, guid: 00476b9bd0220034fa69c30bd723bb2b, type: 3}
+      propertyPath: m_Name
+      value: WinterBrazier_Blue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7075566689925690928, guid: 00476b9bd0220034fa69c30bd723bb2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4678229926873885995}
+  m_SourcePrefab: {fileID: 100100000, guid: 00476b9bd0220034fa69c30bd723bb2b, type: 3}
+--- !u!1 &3602901342238260304 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7075566689925690928, guid: 00476b9bd0220034fa69c30bd723bb2b, type: 3}
+  m_PrefabInstance: {fileID: 5778511690076834400}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4678229926873885995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3602901342238260304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55208e5502f213248be4b4190c68e81a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

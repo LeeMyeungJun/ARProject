@@ -37,11 +37,18 @@ public class MapEditor : EditorWindow
         mapName = EditorGUILayout.TextField("MapName", mapName);
         if (GUILayout.Button("Save", GUILayout.Width(128)))
         {
+            GameObject mapParent = GameObject.Find("MapParent");
+            if (mapParent == null)
+            {
+                Debug.LogError("Find Misiing Create Please GameObject Name 'MapParent'");
+                return;
+            }
+
+
             bool check = Util.IsTextAsset("JsnLevels/" + mapName);
             if (!check)
             {
                 Debug.Log("맵저장중... 기다려주세요");
-                DestroyMap();
                 SaveMap();
                 AssetDatabase.Refresh();
             }
