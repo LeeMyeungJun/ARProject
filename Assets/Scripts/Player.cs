@@ -6,6 +6,8 @@ public class Player : MonoBehaviour
 {
 
     public Transform effect_hit;    // 데미지 효과
+    public float delay; // 공격속도 딜레이
+
     void AttackEnemy()
     {
         if (Input.GetMouseButtonDown(0))
@@ -23,5 +25,13 @@ public class Player : MonoBehaviour
         }
     }
 
+    void Btn_Atk()
+    {
 
+    }
+
+    public void SetData(float _speed, float _dmg)
+    {
+
+    }
 }
