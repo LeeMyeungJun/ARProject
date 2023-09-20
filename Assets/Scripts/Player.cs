@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
                 {
                         delay = 0;
                         Instantiate(effect_hit, other.point, Quaternion.identity);
-                        //other.transform.GetComponent<Enemy>().      (GameInfo.attackDmg);
+                        other.transform.GetComponent<Enemy>().OnTakePlayerDamage(atkDmg);
                 }
             }
     }
@@ -33,6 +33,9 @@ public class Player : MonoBehaviour
             AttackEnemy();
         }
     }
+
+    public void SetAttackSpeed(float _speed) { atkSpeed = _speed; }
+    public void SetAttackData(float _dmg) { atkDmg = _dmg; }
     public void SetData(float _speed, float _dmg)
     {
         atkDmg = _dmg;
