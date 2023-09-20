@@ -9,6 +9,13 @@ public class Castle : MonoBehaviour
     public void OnTakeDamage(float _dmg)
     {
          health -= _dmg;
-
+    }
+    public float getHp()
+    {
+        return health;
+    }
+    public void SetData() 
+    {
+         //health = gameinfo.castleHP;
     }
 }
