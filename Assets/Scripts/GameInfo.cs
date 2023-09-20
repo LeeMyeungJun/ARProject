@@ -18,5 +18,5 @@ public class GameInfo
     public int curmoney;
     public int currLv;
     public float atkSpeed;
-    public float attackDmg;
+    public float atkDmg;
 }

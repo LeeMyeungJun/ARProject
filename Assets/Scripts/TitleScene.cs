@@ -29,7 +29,7 @@ public class TitleScene : MonoBehaviour
     {
         GameInfo data = new GameInfo();
         data.atkSpeed = 2.0f;
-        data.attackDmg = 50.0f;
+        data.atkDmg = 50.0f;
         Util.SaveData<GameInfo>(data, "/ save.dat");
     }
 }

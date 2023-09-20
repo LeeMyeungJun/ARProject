@@ -20,7 +20,7 @@ public class Util
         }
         catch (Exception e)
         {
-            Debug.LogError("저장된파일없음");
+            Debug.LogError("저장된Load파일없음");
             return default(T);
         }
 
