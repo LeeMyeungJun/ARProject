@@ -5,189 +5,44 @@
     "$values": [
       {
         "$type": "LMJMapData, Assembly-CSharp",
-        "meshName": "Cube",
+        "meshName": "WinterCatapult_Ski",
         "pos": {
           "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
-        },
-        "rot": {
-          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0,
-          "w": 1.0,
-          "eulerAngles": {
-            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
-          }
-        },
-        "scale": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": 1.0,
-          "y": 1.0,
-          "z": 1.0,
+          "x": -112.549438,
+          "y": 2.76,
+          "z": 5.56,
           "normalized": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 0.577350259,
-            "y": 0.577350259,
-            "z": 0.577350259,
-            "magnitude": 1.0,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.73205078,
-          "sqrMagnitude": 3.0
-        }
-      },
-      {
-        "$type": "LMJMapData, Assembly-CSharp",
-        "meshName": "Cube",
-        "pos": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": 1.95,
-          "y": 0.0,
-          "z": 0.0,
-          "normalized": {
-            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 1.0,
-            "y": 0.0,
-            "z": 0.0,
+            "x": -0.9984826,
+            "y": 0.0244853459,
+            "z": 0.04932555,
             "magnitude": 1.0,
             "sqrMagnitude": 1.0
           },
-          "magnitude": 1.95,
-          "sqrMagnitude": 3.80250025
+          "magnitude": 112.720482,
+          "sqrMagnitude": 12705.9072
         },
         "rot": {
           "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
           "x": 0.0,
-          "y": 0.0,
+          "y": 0.816677,
           "z": 0.0,
-          "w": 1.0,
+          "w": 0.5770952,
           "eulerAngles": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
             "x": 0.0,
-            "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
-          }
-        },
-        "scale": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": 1.0,
-          "y": 1.0,
-          "z": 1.0,
-          "normalized": {
-            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 0.577350259,
-            "y": 0.577350259,
-            "z": 0.577350259,
-            "magnitude": 1.0,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.73205078,
-          "sqrMagnitude": 3.0
-        }
-      },
-      {
-        "$type": "LMJMapData, Assembly-CSharp",
-        "meshName": "Cube",
-        "pos": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": 0.0,
-          "y": 1.93,
-          "z": 0.0,
-          "normalized": {
-            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 0.0,
-            "y": 1.0,
-            "z": 0.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1.93,
-          "sqrMagnitude": 3.72489977
-        },
-        "rot": {
-          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0,
-          "w": 1.0,
-          "eulerAngles": {
-            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
-          }
-        },
-        "scale": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": 1.0,
-          "y": 1.0,
-          "z": 1.0,
-          "normalized": {
-            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 0.577350259,
-            "y": 0.577350259,
-            "z": 0.577350259,
-            "magnitude": 1.0,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.73205078,
-          "sqrMagnitude": 3.0
-        }
-      },
-      {
-        "$type": "LMJMapData, Assembly-CSharp",
-        "meshName": "Cube",
-        "pos": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": 1.61,
-          "y": 1.65,
-          "z": 0.0,
-          "normalized": {
-            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 0.698378,
-            "y": 0.715729,
+            "y": 109.507019,
             "z": 0.0,
             "normalized": {
               "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-              "x": 0.6983781,
-              "y": 0.715729058,
+              "x": 0.0,
+              "y": 1.0,
               "z": 0.0,
               "magnitude": 1.0,
               "sqrMagnitude": 1.0
             },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.9999999
-          },
-          "magnitude": 2.30534172,
-          "sqrMagnitude": 5.3146
-        },
-        "rot": {
-          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0,
-          "w": 1.0,
-          "eulerAngles": {
-            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
+            "magnitude": 109.507019,
+            "sqrMagnitude": 11991.7871
           }
         },
         "scale": {
@@ -209,10 +64,69 @@
       },
       {
         "$type": "LMJMapData, Assembly-CSharp",
-        "meshName": "Cube",
+        "meshName": "WinterCatapult_v2",
         "pos": {
           "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": -4.69,
+          "x": -127.51992,
+          "y": 2.58,
+          "z": 7.52,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9980622,
+            "y": 0.0201929267,
+            "z": 0.0588569045,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 127.767509,
+          "sqrMagnitude": 16324.5371
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": -0.771012366,
+          "z": 0.0,
+          "w": 0.636820257,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 259.110229,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 259.110229,
+            "sqrMagnitude": 67138.11
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "Wall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -140.7,
           "y": 0.0,
           "z": 0.0,
           "normalized": {
@@ -223,8 +137,8 @@
             "magnitude": 1.0,
             "sqrMagnitude": 1.0
           },
-          "magnitude": 4.69,
-          "sqrMagnitude": 21.9961014
+          "magnitude": 140.7,
+          "sqrMagnitude": 19796.4883
         },
         "rot": {
           "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
@@ -260,22 +174,5063 @@
       },
       {
         "$type": "LMJMapData, Assembly-CSharp",
-        "meshName": "Cube",
+        "meshName": "WinterCrate_MD",
         "pos": {
           "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": 4.06,
+          "x": -102.37,
+          "y": 2.56,
+          "z": 0.040057,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9996874,
+            "y": 0.0249995068,
+            "z": 0.000391173933,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 102.402016,
+          "sqrMagnitude": 10486.1729
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.106056035,
+          "z": 0.0,
+          "w": 0.994360149,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 12.1760254,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 12.1760254,
+            "sqrMagnitude": 148.2556
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.875150859,
+          "y": 0.875150859,
+          "z": 0.875150859,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.51580572,
+          "sqrMagnitude": 2.297667
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCrate_MD",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -106.991287,
+          "y": 2.49290538,
+          "z": 6.556947,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9978576,
+            "y": 0.0232501589,
+            "z": 0.0611535721,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 107.221,
+          "sqrMagnitude": 11496.3438
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.5792199,
+          "z": 0.0,
+          "w": 0.815171361,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 70.79139,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 70.79139,
+            "sqrMagnitude": 5011.421
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7436701,
+          "y": 0.74367,
+          "z": 0.7436701,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.5773502,
+            "z": 0.577350259,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.5773503,
+              "y": 0.577350259,
+              "z": 0.5773503,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.00000012
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 1.28807437,
+          "sqrMagnitude": 1.65913546
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCrate_MD",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -108.19,
+          "y": 2.92,
+          "z": 11.636,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9939082,
+            "y": 0.0268251412,
+            "z": 0.106896341,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 108.853111,
+          "sqrMagnitude": 11849.0
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.106056035,
+          "z": 0.0,
+          "w": 0.994360149,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 12.1760254,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 12.1760254,
+            "sqrMagnitude": 148.2556
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.21210027,
+          "y": 1.2121,
+          "z": 1.21210027,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.5773503,
+            "y": 0.5773502,
+            "z": 0.5773503,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 2.099419,
+          "sqrMagnitude": 4.407561
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCrate_MD",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -133.4382,
+          "y": 3.09,
+          "z": 10.66,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9965587,
+            "y": 0.0230770968,
+            "z": 0.0796122551,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 133.898987,
+          "sqrMagnitude": 17928.9375
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0258492362,
+          "z": 0.0,
+          "w": -0.999665856,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 357.037567,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 357.037567,
+            "sqrMagnitude": 127475.828
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.54411721,
+          "y": 1.54411674,
+          "z": 1.54411721,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.5773503,
+            "y": 0.57735014,
+            "z": 0.5773503,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 2.67448926,
+          "sqrMagnitude": 7.15289259
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCrate_MD",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -110.6,
+          "y": 2.52440023,
+          "z": 11.6357527,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.994255245,
+            "y": 0.0226934738,
+            "z": 0.104601346,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.9942553,
+              "y": 0.0226934757,
+              "z": 0.104601353,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 111.239037,
+          "sqrMagnitude": 12374.123
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.287482232,
+          "z": 0.0,
+          "w": -0.957786,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 326.585449,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 326.585449,
+            "sqrMagnitude": 106658.055
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCrate_MD",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -133.49,
+          "y": 4.6,
+          "z": 10.68,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9962272,
+            "y": 0.0343295,
+            "z": 0.07970414,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.996227264,
+              "y": 0.0343295038,
+              "z": 0.07970415,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 133.995544,
+          "sqrMagnitude": 17954.8047
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.08820239,
+          "z": 0.0,
+          "w": 0.9961026,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 10.1204,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 10.1204,
+            "sqrMagnitude": 102.422508
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.71716,
+          "y": 0.71716,
+          "z": 0.71716,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.24215758,
+          "sqrMagnitude": 1.54295528
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCrate_MD",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -138.87,
+          "y": 2.53,
+          "z": 1.85,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.999745369,
+            "y": 0.0182138383,
+            "z": 0.01331842,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.9997454,
+              "y": 0.01821384,
+              "z": 0.0133184213,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 138.905365,
+          "sqrMagnitude": 19294.7
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.08820239,
+          "z": 0.0,
+          "w": 0.9961026,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 10.1204,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 10.1204,
+            "sqrMagnitude": 102.422508
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.71716,
+          "y": 0.71716,
+          "z": 0.71716,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.24215758,
+          "sqrMagnitude": 1.54295528
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterTreeApplesShortG_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -116.68,
+          "y": 1.986137,
+          "z": 7.4,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.997850955,
+            "y": 0.0169855058,
+            "z": 0.06328503,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 116.93129,
+          "sqrMagnitude": 13672.9268
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterTreeApplesShortG_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -128.81,
+          "y": 1.986137,
+          "z": 10.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9968823,
+            "y": 0.01537105,
+            "z": 0.0773916841,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 129.212845,
+          "sqrMagnitude": 16695.96
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterTreeApplesShortG_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -112.95,
+          "y": 1.986137,
+          "z": 9.53,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.996306539,
+            "y": 0.01751927,
+            "z": 0.08406199,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 113.368721,
+          "sqrMagnitude": 12852.4678
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterTreeApplesShortG_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -113.899231,
+          "y": 1.91,
+          "z": 11.81,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.994529,
+            "y": 0.0166774634,
+            "z": 0.103120871,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 114.5258,
+          "sqrMagnitude": 13116.1592
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.72662866,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.448054641,
+            "y": 0.773624,
+            "z": 0.448054641,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 2.23187065,
+          "sqrMagnitude": 4.98124647
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterTreeApplesShortG_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -122.68,
+          "y": 1.94,
+          "z": 9.67,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.996784,
+            "y": 0.015762642,
+            "z": 0.07856946,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.996784031,
+              "y": 0.0157626439,
+              "z": 0.0785694644,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 123.075813,
+          "sqrMagnitude": 15147.6553
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.72662866,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.448054641,
+            "y": 0.773624,
+            "z": 0.448054641,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 2.23187065,
+          "sqrMagnitude": 4.98124647
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterTreeApplesShortG_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -115.26,
+          "y": 1.98613667,
+          "z": 10.21,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9959528,
+            "y": 0.0171620548,
+            "z": 0.08822382,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.995952845,
+              "y": 0.0171620566,
+              "z": 0.08822383,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 115.728378,
+          "sqrMagnitude": 13393.0566
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 2.1452,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.389193952,
+            "y": 0.8348989,
+            "z": 0.389193952,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 2.569413,
+          "sqrMagnitude": 6.601883
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterTreeApplesShortG_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -117.87,
+          "y": 1.98613667,
+          "z": 10.21,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.996129036,
+            "y": 0.0167850032,
+            "z": 0.08628555,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 118.328049,
+          "sqrMagnitude": 14001.5264
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.268,
+          "y": 2.1452,
+          "z": 1.4139,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.442566842,
+            "y": 0.748733759,
+            "z": 0.493489951,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 2.865104,
+          "sqrMagnitude": 8.20882
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterTreeApplesShortG_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -130.75,
+          "y": 1.979461,
+          "z": 10.7872772,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9965005,
+            "y": 0.0150863007,
+            "z": 0.0822143555,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 131.209167,
+          "sqrMagnitude": 17215.8457
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.875731468,
+          "y": 1.48156083,
+          "z": 0.976495862,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.442566842,
+            "y": 0.748733759,
+            "z": 0.493489981,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 1.97875524,
+          "sqrMagnitude": 3.91547227
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterGrass01",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -107.636482,
+          "y": 2.29170752,
+          "z": 8.54,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9966428,
+            "y": 0.0212197,
+            "z": 0.07907476,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 107.999054,
+          "sqrMagnitude": 11663.7959
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.2298,
+          "y": 1.2298,
+          "z": 1.2298,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 2.13007617,
+          "sqrMagnitude": 4.537224
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterGrass01",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -110.59,
+          "y": 2.28,
+          "z": 8.5412,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9968203,
+            "y": 0.0205511376,
+            "z": 0.0769874454,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 110.942764,
+          "sqrMagnitude": 12308.2979
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.9580511,
+          "y": 0.9580511,
+          "z": 0.9580511,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.65939319,
+          "sqrMagnitude": 2.75358558
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterGrass01",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -139.24,
+          "y": 2.14891386,
+          "z": 0.04,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9998809,
+            "y": 0.0154313259,
+            "z": 0.000287239527,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 139.256592,
+          "sqrMagnitude": 19392.3984
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.6278013,
+          "y": 0.6278013,
+          "z": 0.6278013,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.08738375,
+          "sqrMagnitude": 1.18240345
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterGrass01",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -139.4,
+          "y": 2.21,
+          "z": 0.65,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9998635,
+            "y": 0.0158514958,
+            "z": 0.00466220453,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 139.419022,
+          "sqrMagnitude": 19437.6641
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.6278013,
+          "y": 0.979683936,
+          "z": 0.6278013,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.47483784,
+            "y": 0.74098444,
+            "z": 0.47483784,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.474837869,
+              "y": 0.7409845,
+              "z": 0.474837869,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 1.32213831,
+          "sqrMagnitude": 1.7480495
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterGrass01",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -108.79,
+          "y": 2.29170752,
+          "z": 9.23,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9962008,
+            "y": 0.020985391,
+            "z": 0.08452002,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 109.204895,
+          "sqrMagnitude": 11925.709
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.2298,
+          "y": 1.2298,
+          "z": 1.2298,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 2.13007617,
+          "sqrMagnitude": 4.537224
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterLadder",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -132.18,
+          "y": 1.0,
+          "z": -1.06,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.999939263,
+            "y": 0.007564982,
+            "z": -0.008018881,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 132.188019,
+          "sqrMagnitude": 17473.6738
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterLadder",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -116.89,
+          "y": 1.0,
+          "z": -1.09,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9999199,
+            "y": 0.008554366,
+            "z": -0.00932426,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.999919951,
+              "y": 0.008554367,
+              "z": -0.009324261,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 116.899361,
+          "sqrMagnitude": 13665.46
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "Shovel",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -111.259995,
+          "y": 2.42,
+          "z": 9.6,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9960643,
+            "y": 0.02166525,
+            "z": 0.0859448,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 111.699608,
+          "sqrMagnitude": 12476.8027
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.08099506,
+          "y": -0.82832247,
+          "z": -0.14526242,
+          "w": -0.5349958,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 340.8943,
+            "y": 114.068024,
+            "z": 1.28859091,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.9483122,
+              "y": 0.317318618,
+              "z": 0.00358464941,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 359.474731,
+            "sqrMagnitude": 129222.086
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.434596539,
+          "y": 0.434596658,
+          "z": 0.03824009,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.705742,
+            "y": 0.7057422,
+            "z": 0.06209814,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.615800858,
+          "sqrMagnitude": 0.3792107
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "Shovel",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -111.259995,
+          "y": 2.42,
+          "z": 9.6,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9960643,
+            "y": 0.02166525,
+            "z": 0.0859448,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 111.699608,
+          "sqrMagnitude": 12476.8027
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.08099506,
+          "y": -0.82832247,
+          "z": -0.14526242,
+          "w": -0.5349958,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 340.8943,
+            "y": 114.068024,
+            "z": 1.28859091,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.9483122,
+              "y": 0.317318618,
+              "z": 0.00358464941,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 359.474731,
+            "sqrMagnitude": 129222.086
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.434596539,
+          "y": 0.434596658,
+          "z": 0.03824009,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.705742,
+            "y": 0.7057422,
+            "z": 0.06209814,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.615800858,
+          "sqrMagnitude": 0.3792107
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCatapult_Ski",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -112.549438,
+          "y": 2.76,
+          "z": 5.56,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9984826,
+            "y": 0.0244853459,
+            "z": 0.04932555,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 112.720482,
+          "sqrMagnitude": 12705.9072
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.8166769,
+          "z": 0.0,
+          "w": 0.5770952,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 109.507019,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 109.507019,
+            "sqrMagnitude": 11991.7871
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCannonBall_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -108.82,
+          "y": 2.89,
+          "z": 5.2,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.99850893,
+            "y": 0.02651802,
+            "z": 0.04771408,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.998509,
+              "y": 0.0265180226,
+              "z": 0.0477140844,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 108.9825,
+          "sqrMagnitude": 11877.1846
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.9390817,
+          "y": 0.9390817,
+          "z": 0.9390817,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.62653732,
+          "sqrMagnitude": 2.64562345
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCannonBall_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -109.34,
+          "y": 3.02,
+          "z": 5.36,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9984207,
+            "y": 0.0275766477,
+            "z": 0.0489439853,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.9984208,
+              "y": 0.02757665,
+              "z": 0.04894399,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 109.512947,
+          "sqrMagnitude": 11993.085
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.9390817,
+          "y": 0.9390817,
+          "z": 0.9390817,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.62653732,
+          "sqrMagnitude": 2.64562345
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "Ground",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -140.7,
           "y": 0.0,
           "z": 0.0,
           "normalized": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 1.0,
+            "x": -1.0,
             "y": 0.0,
             "z": 0.0,
             "magnitude": 1.0,
             "sqrMagnitude": 1.0
           },
-          "magnitude": 4.06,
-          "sqrMagnitude": 16.4835987
+          "magnitude": 140.7,
+          "sqrMagnitude": 19796.4883
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterBarrel",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -124.369995,
+          "y": 1.9383657,
+          "z": 11.79,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.995416939,
+            "y": 0.0155140478,
+            "z": 0.0943633243,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 124.942612,
+          "sqrMagnitude": 15610.6572
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterBarrel",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -125.909996,
+          "y": 1.9383657,
+          "z": 11.79,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.995527565,
+            "y": 0.015326,
+            "z": 0.0932195261,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.9955276,
+              "y": 0.0153260008,
+              "z": 0.09321953,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 126.475647,
+          "sqrMagnitude": 15996.0889
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterBarrel",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -125.1,
+          "y": 1.9383657,
+          "z": 10.29,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9965154,
+            "y": 0.0154405376,
+            "z": 0.08196758,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 125.537445,
+          "sqrMagnitude": 15759.6514
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterBarrel",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -137.02,
+          "y": 1.97,
+          "z": 0.35,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9998934,
+            "y": 0.0143759307,
+            "z": 0.00255409931,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 137.0346,
+          "sqrMagnitude": 18778.4844
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.528082252,
+          "y": 0.528082252,
+          "z": 0.528082252,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 0.9146653,
+          "sqrMagnitude": 0.8366126
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterBarrel",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -136.52,
+          "y": 1.97,
+          "z": -0.34,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.999892831,
+            "y": 0.0144285737,
+            "z": -0.00249021058,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 136.534637,
+          "sqrMagnitude": 18641.709
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.528082252,
+          "y": 0.528082252,
+          "z": 0.528082252,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 0.9146653,
+          "sqrMagnitude": 0.8366126
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCannonBall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -109.479996,
+          "y": 2.34,
+          "z": 5.774,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9983848,
+            "y": 0.0213392433,
+            "z": 0.05265504,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 109.65712,
+          "sqrMagnitude": 12024.6846
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCannonBall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -108.67,
+          "y": 2.379,
+          "z": 5.702,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9983877,
+            "y": 0.02185667,
+            "z": 0.052386187,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 108.84549,
+          "sqrMagnitude": 11847.3408
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCannonBall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -109.03,
+          "y": 2.379,
+          "z": 4.68,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9988428,
+            "y": 0.0217944328,
+            "z": 0.04287429,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 109.156319,
+          "sqrMagnitude": 11915.1025
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCannonBall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -130.48,
+          "y": 2.379,
+          "z": 6.93,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.998427153,
+            "y": 0.0182040017,
+            "z": 0.05302805,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.998427033,
+              "y": 0.018204,
+              "z": 0.0530280434,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": -0.9984271,
+                "y": 0.0182040017,
+                "z": 0.0530280471,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 0.99999994,
+              "sqrMagnitude": 0.9999999
+            },
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 130.685547,
+          "sqrMagnitude": 17078.7129
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCannonBall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -109.655,
+          "y": 2.379,
+          "z": 5.004,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9987259,
+            "y": 0.0216676742,
+            "z": 0.0455758944,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 109.794891,
+          "sqrMagnitude": 12054.918
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCannonBall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -130.9,
+          "y": 2.379,
+          "z": 7.75,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.998087764,
+            "y": 0.0181394257,
+            "z": 0.059092287,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.998087645,
+              "y": 0.0181394238,
+              "z": 0.05909228,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": -0.9980877,
+                "y": 0.0181394257,
+                "z": 0.0590922832,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 0.99999994,
+              "sqrMagnitude": 0.9999999
+            },
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 131.150787,
+          "sqrMagnitude": 17200.5313
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCannonBall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -130.05,
+          "y": 2.379,
+          "z": 7.75,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9980627,
+            "y": 0.018257523,
+            "z": 0.0594770126,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 130.302444,
+          "sqrMagnitude": 16978.7246
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCatapult_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -127.51992,
+          "y": 2.58,
+          "z": 7.52,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9980622,
+            "y": 0.0201929267,
+            "z": 0.0588569045,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 127.767509,
+          "sqrMagnitude": 16324.5371
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7710124,
+          "z": 0.0,
+          "w": -0.636820138,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 259.110229,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 259.110229,
+            "sqrMagnitude": 67138.11
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterGrass02",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -134.02,
+          "y": 2.13,
+          "z": 8.56,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.997841,
+            "y": 0.0158588365,
+            "z": 0.06373317,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 134.309982,
+          "sqrMagnitude": 18039.1719
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.69064,
+          "y": 0.69064,
+          "z": 0.69064,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.1962235,
+          "sqrMagnitude": 1.43095076
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterGrass02",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -133.709991,
+          "y": 2.13,
+          "z": 8.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9980888,
+            "y": 0.0158995539,
+            "z": 0.05971663,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 133.966034,
+          "sqrMagnitude": 17946.8984
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.246052712,
+          "z": 0.0,
+          "w": -0.969256461,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 331.5119,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 331.5119,
+            "sqrMagnitude": 109900.141
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.69064,
+          "y": 0.69064,
+          "z": 0.69064,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.1962235,
+          "sqrMagnitude": 1.43095076
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterGrass02",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -133.338257,
+          "y": 2.22,
+          "z": 8.210052,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.997971952,
+            "y": 0.01661562,
+            "z": 0.06144824,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 133.609222,
+          "sqrMagnitude": 17851.4238
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.375322431,
+          "z": 0.0,
+          "w": 0.9268943,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 44.0884857,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 44.0884857,
+            "sqrMagnitude": 1943.79456
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterGrass02",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -134.34,
+          "y": 2.22,
+          "z": 8.210052,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.998002,
+            "y": 0.0164922178,
+            "z": 0.0609918721,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 134.608948,
+          "sqrMagnitude": 18119.5684
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.375322431,
+          "z": 0.0,
+          "w": 0.9268943,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 44.0884857,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 44.0884857,
+            "sqrMagnitude": 1943.79456
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterBridgeWide_Section",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -120.6756,
+          "y": 2.234,
+          "z": 2.84294558,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9995515,
+            "y": 0.0185041372,
+            "z": 0.02354801,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 120.729752,
+          "sqrMagnitude": 14575.6729
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7071068,
+          "z": 0.0,
+          "w": -0.7071068,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 270.0,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 270.0,
+            "sqrMagnitude": 72900.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0244,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.5726551,
+            "y": 0.5726551,
+            "z": 0.5866279,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 1.74625182,
+          "sqrMagnitude": 3.04939532
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "Castle_W_Blue",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -104.006027,
+          "y": 1.99065971,
+          "z": 10.6844349,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.99458456,
+            "y": 0.019036198,
+            "z": 0.102172673,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 104.572334,
+          "sqrMagnitude": 10935.374
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": 2.8173115E-06,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 179.99968,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 179.99968,
+            "sqrMagnitude": 32399.8848
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.6,
+          "y": 0.6,
+          "z": 0.6,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.03923059,
+          "sqrMagnitude": 1.08
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "Castle",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -136.898041,
+          "y": 1.993773,
+          "z": 10.1851864,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9971386,
+            "y": 0.0145222535,
+            "z": 0.07418691,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 137.290878,
+          "sqrMagnitude": 18848.7871
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": 2.8173115E-06,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 179.99968,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 179.99968,
+            "sqrMagnitude": 32399.8848
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.6,
+          "y": 0.6,
+          "z": 0.6,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.03923059,
+          "sqrMagnitude": 1.08
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "Wall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -140.7,
+          "y": 0.0,
+          "z": 0.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 140.7,
+          "sqrMagnitude": 19796.4883
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -100.563995,
+          "y": 2.69999957,
+          "z": 11.92,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.99269557,
+            "y": 0.0266524572,
+            "z": 0.117665686,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 101.303963,
+          "sqrMagnitude": 10262.4932
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -102.7,
+          "y": 2.69999957,
+          "z": 14.12,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.990344644,
+            "y": 0.02603632,
+            "z": 0.136160329,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 103.701271,
+          "sqrMagnitude": 10753.9541
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -106.7,
+          "y": 2.69999957,
+          "z": 14.12,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9910455,
+            "y": 0.0250779986,
+            "z": 0.131148666,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 107.664078,
+          "sqrMagnitude": 11591.5537
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -100.563995,
+          "y": 2.69999957,
+          "z": 8.03,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9964704,
+            "y": 0.0267538056,
+            "z": 0.07956781,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 100.920204,
+          "sqrMagnitude": 10184.8877
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -100.563995,
+          "y": 2.69999957,
+          "z": 4.09,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.998814642,
+            "y": 0.0268167462,
+            "z": 0.0406224132,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 100.683342,
+          "sqrMagnitude": 10137.1357
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -100.563995,
+          "y": 2.69999957,
+          "z": -0.02,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.99963975,
+            "y": 0.0268388987,
+            "z": -0.0001988067,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 100.600235,
+          "sqrMagnitude": 10120.4072
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -140.87,
+          "y": 2.69999957,
+          "z": 11.92,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.996257365,
+            "y": 0.0190948714,
+            "z": 0.08430034,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.9962574,
+              "y": 0.0190948732,
+              "z": 0.08430035,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 141.3992,
+          "sqrMagnitude": 19993.7324
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -140.87,
+          "y": 2.69999957,
+          "z": 8.03,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9981965,
+            "y": 0.0191320386,
+            "z": 0.0569001064,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.998196542,
+              "y": 0.01913204,
+              "z": 0.05690011,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 141.124512,
+          "sqrMagnitude": 19916.127
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -140.87,
+          "y": 2.69999957,
+          "z": 4.09,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.99939543,
+            "y": 0.019155018,
+            "z": 0.02901631,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 140.955215,
+          "sqrMagnitude": 19868.373
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -140.87,
+          "y": 2.69999957,
+          "z": -0.02,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9998163,
+            "y": 0.0191630851,
+            "z": -0.0001419488,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.999816358,
+              "y": 0.019163087,
+              "z": -0.000141948811,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 140.895874,
+          "sqrMagnitude": 19851.6465
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeSmall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -140.816,
+          "y": 2.46,
+          "z": 9.99,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9973416,
+            "y": 0.0174231641,
+            "z": 0.07075504,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 141.191345,
+          "sqrMagnitude": 19934.9961
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7071056,
+          "z": 0.0,
+          "w": -0.707107961,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 270.000183,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 270.000183,
+            "sqrMagnitude": 72900.1
+          },
+          "normalized": {
+            "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.707105637,
+            "z": 0.0,
+            "w": -0.707108,
+            "eulerAngles": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 270.000183,
+              "z": 0.0,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 270.000183,
+              "sqrMagnitude": 72900.1
+            }
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeSmall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -140.816,
+          "y": 2.46,
+          "z": 6.09,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.998914,
+            "y": 0.0174506344,
+            "z": 0.0432009622,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 140.969086,
+          "sqrMagnitude": 19872.2832
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7071056,
+          "z": 0.0,
+          "w": -0.707107961,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 270.000183,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 270.000183,
+            "sqrMagnitude": 72900.1
+          },
+          "normalized": {
+            "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.707105637,
+            "z": 0.0,
+            "w": -0.707108,
+            "eulerAngles": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 270.000183,
+              "z": 0.0,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 270.000183,
+              "sqrMagnitude": 72900.1
+            }
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeSmall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -140.816,
+          "y": 2.46,
+          "z": 1.96,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9997506,
+            "y": 0.01746525,
+            "z": 0.0139154028,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 140.85112,
+          "sqrMagnitude": 19839.0371
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7071056,
+          "z": 0.0,
+          "w": -0.707107961,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 270.000183,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 270.000183,
+            "sqrMagnitude": 72900.1
+          },
+          "normalized": {
+            "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.707105637,
+            "z": 0.0,
+            "w": -0.707108,
+            "eulerAngles": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 270.000183,
+              "z": 0.0,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 270.000183,
+              "sqrMagnitude": 72900.1
+            }
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeSmall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -100.509995,
+          "y": 2.46,
+          "z": 9.99,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9948018,
+            "y": 0.0243479516,
+            "z": 0.09887643,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 101.035194,
+          "sqrMagnitude": 10208.11
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7071056,
+          "z": 0.0,
+          "w": -0.707107961,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 270.000183,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 270.000183,
+            "sqrMagnitude": 72900.1
+          },
+          "normalized": {
+            "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.707105637,
+            "z": 0.0,
+            "w": -0.707108,
+            "eulerAngles": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 270.000183,
+              "z": 0.0,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 270.000183,
+              "sqrMagnitude": 72900.1
+            }
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeSmall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -100.509995,
+          "y": 2.46,
+          "z": 14.08,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9900393,
+            "y": 0.02423139,
+            "z": 0.138690218,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.990039349,
+              "y": 0.024231391,
+              "z": 0.138690233,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 101.521217,
+          "sqrMagnitude": 10306.5566
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7071056,
+          "z": 0.0,
+          "w": -0.707107961,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 270.000183,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 270.000183,
+            "sqrMagnitude": 72900.1
+          },
+          "normalized": {
+            "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.707105637,
+            "z": 0.0,
+            "w": -0.707108,
+            "eulerAngles": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 270.000183,
+              "z": 0.0,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 270.000183,
+              "sqrMagnitude": 72900.1
+            }
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeSmall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -104.649994,
+          "y": 2.46,
+          "z": 14.08,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9908012,
+            "y": 0.0232906956,
+            "z": 0.133306086,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 105.621582,
+          "sqrMagnitude": 11155.9189
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7071056,
+          "z": 0.0,
+          "w": -0.707107961,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 270.000183,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 270.000183,
+            "sqrMagnitude": 72900.1
+          },
+          "normalized": {
+            "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.707105637,
+            "z": 0.0,
+            "w": -0.707108,
+            "eulerAngles": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 270.000183,
+              "z": 0.0,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 270.000183,
+              "sqrMagnitude": 72900.1
+            }
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeSmall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -108.649994,
+          "y": 2.46,
+          "z": 14.08,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9914575,
+            "y": 0.0224480964,
+            "z": 0.128483415,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.9914576,
+              "y": 0.0224480983,
+              "z": 0.12848343,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 109.586128,
+          "sqrMagnitude": 12009.1191
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7071056,
+          "z": 0.0,
+          "w": -0.707107961,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 270.000183,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 270.000183,
+            "sqrMagnitude": 72900.1
+          },
+          "normalized": {
+            "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.707105637,
+            "z": 0.0,
+            "w": -0.707108,
+            "eulerAngles": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 270.000183,
+              "z": 0.0,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 270.000183,
+              "sqrMagnitude": 72900.1
+            }
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -110.63,
+          "y": 2.69999957,
+          "z": 14.12,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.991662562,
+            "y": 0.0242021941,
+            "z": 0.126568526,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 111.56012,
+          "sqrMagnitude": 12445.6611
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -114.659996,
+          "y": 2.69999957,
+          "z": 14.12,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.992231667,
+            "y": 0.02336495,
+            "z": 0.122190051,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 115.557686,
+          "sqrMagnitude": 13353.5791
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -118.659996,
+          "y": 2.69999957,
+          "z": 14.12,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.992741,
+            "y": 0.0225889124,
+            "z": 0.11813166,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 119.527649,
+          "sqrMagnitude": 14286.8594
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -126.72,
+          "y": 2.69999957,
+          "z": 14.12,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.993626535,
+            "y": 0.0211710166,
+            "z": 0.110716589,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 127.532829,
+          "sqrMagnitude": 16264.623
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -130.72,
+          "y": 2.69999957,
+          "z": 14.12,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9940071,
+            "y": 0.020531049,
+            "z": 0.107369795,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.9940072,
+              "y": 0.02053105,
+              "z": 0.1073698,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 131.508118,
+          "sqrMagnitude": 17294.3828
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeSmall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -128.67,
+          "y": 2.46,
+          "z": 14.08,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.99388665,
+            "y": 0.0190017968,
+            "z": 0.108758248,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 129.461441,
+          "sqrMagnitude": 16760.2656
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7071056,
+          "z": 0.0,
+          "w": -0.707107961,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 270.000183,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 270.000183,
+            "sqrMagnitude": 72900.1
+          },
+          "normalized": {
+            "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.707105637,
+            "z": 0.0,
+            "w": -0.707108,
+            "eulerAngles": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 270.000183,
+              "z": 0.0,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 270.000183,
+              "sqrMagnitude": 72900.1
+            }
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeSmall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -132.67,
+          "y": 2.46,
+          "z": 14.08,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.994246542,
+            "y": 0.0184355658,
+            "z": 0.10551738,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 133.437729,
+          "sqrMagnitude": 17805.627
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7071056,
+          "z": 0.0,
+          "w": -0.707107961,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 270.000183,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 270.000183,
+            "sqrMagnitude": 72900.1
+          },
+          "normalized": {
+            "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.707105637,
+            "z": 0.0,
+            "w": -0.707108,
+            "eulerAngles": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 270.000183,
+              "z": 0.0,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 270.000183,
+              "sqrMagnitude": 72900.1
+            }
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -134.65,
+          "y": 2.69999957,
+          "z": 14.12,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9943489,
+            "y": 0.0199386682,
+            "z": 0.104271866,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.994348943,
+              "y": 0.01993867,
+              "z": 0.104271874,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 135.415237,
+          "sqrMagnitude": 18337.2852
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeSmall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -136.6,
+          "y": 2.46,
+          "z": 14.08,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9945702,
+            "y": 0.017911,
+            "z": 0.10251499,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 137.345764,
+          "sqrMagnitude": 18863.86
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7071056,
+          "z": 0.0,
+          "w": -0.707107961,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 270.000183,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 270.000183,
+            "sqrMagnitude": 72900.1
+          },
+          "normalized": {
+            "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.707105637,
+            "z": 0.0,
+            "w": -0.707108,
+            "eulerAngles": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 270.000183,
+              "z": 0.0,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 270.000183,
+              "sqrMagnitude": 72900.1
+            }
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -138.55,
+          "y": 2.69999957,
+          "z": 14.12,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9946601,
+            "y": 0.0193834845,
+            "z": 0.101368457,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 139.293823,
+          "sqrMagnitude": 19402.7676
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeSmall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -140.77,
+          "y": 2.46,
+          "z": 14.0800009,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.99488467,
+            "y": 0.0173859224,
+            "z": 0.09950967,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 141.49379,
+          "sqrMagnitude": 20020.4922
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7071056,
+          "z": 0.0,
+          "w": -0.707107961,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 270.000183,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 270.000183,
+            "sqrMagnitude": 72900.1
+          },
+          "normalized": {
+            "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.707105637,
+            "z": 0.0,
+            "w": -0.707108,
+            "eulerAngles": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 270.000183,
+              "z": 0.0,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 270.000183,
+              "sqrMagnitude": 72900.1
+            }
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeSmall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -116.61,
+          "y": 2.46,
+          "z": 14.08,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.992571533,
+            "y": 0.02093925,
+            "z": 0.119847409,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 117.482719,
+          "sqrMagnitude": 13802.19
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7071056,
+          "z": 0.0,
+          "w": -0.707107961,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 270.000183,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 270.000183,
+            "sqrMagnitude": 72900.1
+          },
+          "normalized": {
+            "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.707105637,
+            "z": 0.0,
+            "w": -0.707108,
+            "eulerAngles": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 270.000183,
+              "z": 0.0,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 270.000183,
+              "sqrMagnitude": 72900.1
+            }
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeLarge_v2",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -122.59,
+          "y": 2.69999957,
+          "z": 14.12,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9931942,
+            "y": 0.021874737,
+            "z": 0.114396796,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": -0.9931943,
+              "y": 0.0218747389,
+              "z": 0.1143968,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 123.430031,
+          "sqrMagnitude": 15234.9717
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.2124356,
+          "sqrMagnitude": 1.46999991
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeSmall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -124.539993,
+          "y": 2.46,
+          "z": 14.08,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9934784,
+            "y": 0.0196238719,
+            "z": 0.112318747,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 125.357521,
+          "sqrMagnitude": 15714.5078
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7071056,
+          "z": 0.0,
+          "w": -0.707107961,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 270.000183,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 270.000183,
+            "sqrMagnitude": 72900.1
+          },
+          "normalized": {
+            "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.707105637,
+            "z": 0.0,
+            "w": -0.707108,
+            "eulerAngles": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 270.000183,
+              "z": 0.0,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 270.000183,
+              "sqrMagnitude": 72900.1
+            }
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeSmall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -112.58,
+          "y": 2.46,
+          "z": 14.08,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9920366,
+            "y": 0.0216771178,
+            "z": 0.124070659,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 113.483719,
+          "sqrMagnitude": 12878.5547
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7071056,
+          "z": 0.0,
+          "w": -0.707107961,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 270.000183,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 270.000183,
+            "sqrMagnitude": 72900.1
+          },
+          "normalized": {
+            "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.707105637,
+            "z": 0.0,
+            "w": -0.707108,
+            "eulerAngles": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 270.000183,
+              "z": 0.0,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 270.000183,
+              "sqrMagnitude": 72900.1
+            }
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeSmall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -100.509995,
+          "y": 2.46,
+          "z": 6.09,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.997871637,
+            "y": 0.024423087,
+            "z": 0.06046203,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 100.724373,
+          "sqrMagnitude": 10145.3984
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7071056,
+          "z": 0.0,
+          "w": -0.707107961,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 270.000183,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 270.000183,
+            "sqrMagnitude": 72900.1
+          },
+          "normalized": {
+            "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.707105637,
+            "z": 0.0,
+            "w": -0.707108,
+            "eulerAngles": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 270.000183,
+              "z": 0.0,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 270.000183,
+              "sqrMagnitude": 72900.1
+            }
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "WinterCubeSmall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -100.509995,
+          "y": 2.46,
+          "z": 1.96,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -0.9995107,
+            "y": 0.0244632028,
+            "z": 0.0194910076,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 100.5592,
+          "sqrMagnitude": 10112.1523
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.7071056,
+          "z": 0.0,
+          "w": -0.707107961,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 270.000183,
+            "z": 0.0,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 270.000183,
+            "sqrMagnitude": 72900.1
+          },
+          "normalized": {
+            "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.707105637,
+            "z": 0.0,
+            "w": -0.707108,
+            "eulerAngles": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.0,
+              "y": 270.000183,
+              "z": 0.0,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 270.000183,
+              "sqrMagnitude": 72900.1
+            }
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "Ground",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
         },
         "rot": {
           "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
