@@ -3,6 +3,7 @@ using UnityEngine;
 public class GameManager : MonoSingle<GameManager>
 {
     GameInfo gameInfo;
+    LevelInfo levelInfo;
     Player player;
     private Castle castle;
 
@@ -13,11 +14,17 @@ public class GameManager : MonoSingle<GameManager>
     {
         castle.OnTakeDamage(_dmg);
     }
+    private void Awake()
+    {
+        Init();
+    }
+
 
     private void Init()
     {
         LoadData();
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
+        castle = GameObject.Find("Castle").GetComponent<Castle>();
         player.SetData(gameInfo.atkSpeed, gameInfo.atkDmg);
         castle.SetData(gameInfo.castleHP);//3번
         curmoney = gameInfo.curmoney;
@@ -46,8 +53,17 @@ public class GameManager : MonoSingle<GameManager>
             gameInfo = new GameInfo();
 
         gameInfo = Util.LoadData<GameInfo>("/save.dat");
+        LoadMapData(gameInfo.currLv);
     }
   
+    void LoadMapData(int lv)
+    {
+        TextAsset textAsset = Util.LoadTextAsset("JsnLevels/" + "map_" + lv);
+        levelInfo = new LevelInfo();
+        Util.LoadJsonData<LevelInfo>(textAsset,out levelInfo);
+        levelInfo.LoadData();//여기서 맵로드함
+
+    }
     private void SaveData()
     {
         if (gameInfo == null)

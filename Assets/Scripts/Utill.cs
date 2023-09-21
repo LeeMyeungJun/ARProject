@@ -5,6 +5,7 @@ using System.IO;
 using System.Text;
 using System.Runtime.Serialization.Formatters.Binary;
 using System;
+using Newtonsoft.Json;
 
 public class Util 
 {
@@ -20,7 +21,7 @@ public class Util
         }
         catch (Exception e)
         {
-            Debug.LogError("저장된Load파일없음");
+            Debug.LogError("path : "+path +"저장된Load파일없음");
             return default(T);
         }
 
@@ -56,7 +57,24 @@ public class Util
             return false;
         return true;
     }
+    public static TextAsset LoadTextAsset(string path)
+    {
+        TextAsset textAsset = Resources.Load<TextAsset>(path);
+        if (textAsset == null)
+            return null;
 
+        return textAsset;
+    }
+
+    public static bool LoadJsonData<T>(TextAsset textAsset,out T data)
+    {
+        data = JsonConvert.DeserializeObject<T>(textAsset.text, new JsonSerializerSettings()
+        {
+            ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
+            TypeNameHandling = TypeNameHandling.All
+        });
+        return true;
+    }
     static public void SavePrefab(string _path,GameObject _obj)
     {
         UnityEditor.PrefabUtility.SaveAsPrefabAsset(_obj, _path); //저장

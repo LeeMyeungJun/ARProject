@@ -26,4 +26,24 @@ public class LevelInfo : ScriptableObject
 
 		Util.SaveText("/Resources/JsnLevels/" + name + ".json", str);
 	}
+	public void LoadData()
+	{
+        //levelInfo = JsonConvert.DeserializeObject<LevelInfo>(jsnLevelObj.text, new JsonSerializerSettings()
+        //{
+        //    ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
+        //    TypeNameHandling = TypeNameHandling.All
+        //});
+
+        GameObject baseObj = new GameObject("MapParent");
+        for (int i = 0; i < Objets.Count; i++)
+        {
+            string name = Objets[i].meshName;
+            GameObject obj = Instantiate(Resources.Load<GameObject>("Prefabs/Map/" + name));
+            obj.transform.position = Objets[i].pos;
+            obj.transform.rotation = Objets[i].rot;
+            obj.transform.localScale = Objets[i].scale;
+            obj.transform.SetParent(baseObj.transform);
+            //levelInfo.Objets[i].
+        }
+    }
 }
