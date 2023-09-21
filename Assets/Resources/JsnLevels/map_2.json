@@ -1,0 +1,112 @@
+﻿{
+  "$type": "LevelInfo, Assembly-CSharp",
+  "Objets": {
+    "$type": "System.Collections.Generic.List`1[[LMJMapData, Assembly-CSharp]], mscorlib",
+    "$values": [
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "Wall",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -140.7,
+          "y": 0.0,
+          "z": 0.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 140.7,
+          "sqrMagnitude": 19796.4883
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "Ground",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": -51.19,
+          "y": 0.0,
+          "z": 0.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 51.19,
+          "sqrMagnitude": 2620.416
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      }
+    ]
+  },
+  "name": "",
+  "hideFlags": 0
+}
