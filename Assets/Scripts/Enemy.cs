@@ -21,7 +21,7 @@ public class Enemy : MonoBehaviour
     }
     void Start()
     {
-        SetStatus(EnemyType.runenemy, GameObject.Find("Castle"));
+        SetStatus(EnemyType.runenemy, GameObject.FindWithTag("Castle"));
         agent.destination = target.transform.position;   // 에너미의 타겟 목적지 지정.
     }
     void Update()
@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour
             StartCoroutine("AttackCastle"); 
         }
     }
-        public void SetStatus(EnemyType _type, GameObject _target)  // 해당 함수로 스테이지 별 에너미 세팅
+    public void SetStatus(EnemyType _type, GameObject _target)  // 해당 함수로 스테이지 별 에너미 세팅
     {
         target = _target;
        

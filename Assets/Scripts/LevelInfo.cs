@@ -1,6 +1,7 @@
 using Newtonsoft.Json;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.AI.Navigation;
 using UnityEngine;
 
 [System.Serializable]
@@ -35,6 +36,7 @@ public class LevelInfo : ScriptableObject
         //});
 
         GameObject baseObj = new GameObject("MapParent");
+		baseObj.AddComponent<NavMeshSurface>().BuildNavMesh();
         for (int i = 0; i < Objets.Count; i++)
         {
             string name = Objets[i].meshName;
@@ -45,5 +47,7 @@ public class LevelInfo : ScriptableObject
             obj.transform.SetParent(baseObj.transform);
             //levelInfo.Objets[i].
         }
+
+        
     }
 }
