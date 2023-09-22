@@ -8,6 +8,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 86911355608664726, guid: 940506a406123bc48aa2d9d910f198f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 183909121094084903, guid: 940506a406123bc48aa2d9d910f198f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 357272070914489860, guid: 940506a406123bc48aa2d9d910f198f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1545292790822926804, guid: 940506a406123bc48aa2d9d910f198f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1619617710916038910, guid: 940506a406123bc48aa2d9d910f198f3, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -52,9 +68,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2010656072676584897, guid: 940506a406123bc48aa2d9d910f198f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2074142578076408395, guid: 940506a406123bc48aa2d9d910f198f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016184739130357079, guid: 940506a406123bc48aa2d9d910f198f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3019549523686266852, guid: 940506a406123bc48aa2d9d910f198f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3734450387994593293, guid: 940506a406123bc48aa2d9d910f198f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986392978998541223, guid: 940506a406123bc48aa2d9d910f198f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423322540449619090, guid: 940506a406123bc48aa2d9d910f198f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5472176008433320198, guid: 940506a406123bc48aa2d9d910f198f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5789760476045657326, guid: 940506a406123bc48aa2d9d910f198f3, type: 3}
       propertyPath: m_Name
       value: WinterCatapult_Ski_Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 5789760476045657326, guid: 940506a406123bc48aa2d9d910f198f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475526227167961492, guid: 940506a406123bc48aa2d9d910f198f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

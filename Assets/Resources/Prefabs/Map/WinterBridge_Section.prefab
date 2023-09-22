@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinterBridge_Section
       objectReference: {fileID: 0}
+    - target: {fileID: 8135906744628599524, guid: 381ac0576f313884f9fd57cdbc0b44fa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8484288286113410823, guid: 381ac0576f313884f9fd57cdbc0b44fa, type: 3}
       propertyPath: m_RootOrder
       value: 39

@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinterCrate_MD
       objectReference: {fileID: 0}
+    - target: {fileID: 445424024740845996, guid: d45e0d96dfe73c145b5cbc18a2e41084, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6423813165118098903, guid: d45e0d96dfe73c145b5cbc18a2e41084, type: 3}
       propertyPath: m_RootOrder
       value: 292

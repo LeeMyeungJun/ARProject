@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinterTreePineTall
       objectReference: {fileID: 0}
+    - target: {fileID: 1794441955, guid: b29d3985dd86f1442be771350adae0ec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1794441958, guid: b29d3985dd86f1442be771350adae0ec, type: 3}
       propertyPath: m_RootOrder
       value: 294

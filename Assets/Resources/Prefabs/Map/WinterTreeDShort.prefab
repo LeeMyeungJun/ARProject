@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinterTreeDShort
       objectReference: {fileID: 0}
+    - target: {fileID: 14472157, guid: e047f3fba686e1546b809b7ab1b26d8d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 14472160, guid: e047f3fba686e1546b809b7ab1b26d8d, type: 3}
       propertyPath: m_RootOrder
       value: 301

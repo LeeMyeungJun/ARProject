@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinterCoin
       objectReference: {fileID: 0}
+    - target: {fileID: 1573775801, guid: e2e84f6ede8dc844284fe6fcfffa8e68, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1573775805, guid: e2e84f6ede8dc844284fe6fcfffa8e68, type: 3}
       propertyPath: m_RootOrder
       value: 57

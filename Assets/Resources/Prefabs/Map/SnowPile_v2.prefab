@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SnowPile_v2
       objectReference: {fileID: 0}
+    - target: {fileID: 744152071347772504, guid: e4493422f2ee2274c886b783b4364538, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4883029666531477122, guid: e4493422f2ee2274c886b783b4364538, type: 3}
       propertyPath: m_RootOrder
       value: 62

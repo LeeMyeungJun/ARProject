@@ -8,9 +8,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6421674314626753495, guid: 115720bd171d59440b9e96d883e33e5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6421674315150191787, guid: 115720bd171d59440b9e96d883e33e5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6421674315241787745, guid: 115720bd171d59440b9e96d883e33e5a, type: 3}
       propertyPath: m_Name
       value: WinterChest
+      objectReference: {fileID: 0}
+    - target: {fileID: 6421674315241787745, guid: 115720bd171d59440b9e96d883e33e5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6421674315241787751, guid: 115720bd171d59440b9e96d883e33e5a, type: 3}
       propertyPath: m_RootOrder
@@ -55,6 +67,22 @@ PrefabInstance:
     - target: {fileID: 6421674315241787751, guid: 115720bd171d59440b9e96d883e33e5a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6421674315840154382, guid: 115720bd171d59440b9e96d883e33e5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6421674316169529582, guid: 115720bd171d59440b9e96d883e33e5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6421674316244031665, guid: 115720bd171d59440b9e96d883e33e5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6421674316444596222, guid: 115720bd171d59440b9e96d883e33e5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

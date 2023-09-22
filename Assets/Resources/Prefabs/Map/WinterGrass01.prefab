@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinterGrass01
       objectReference: {fileID: 0}
+    - target: {fileID: 6466247736142429089, guid: f3a2edfa0cd95b043bb4f44f93320140, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8220933215837126759, guid: f3a2edfa0cd95b043bb4f44f93320140, type: 3}
       propertyPath: m_RootOrder
       value: 338

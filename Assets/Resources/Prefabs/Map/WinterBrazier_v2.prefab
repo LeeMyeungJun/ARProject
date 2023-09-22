@@ -8,9 +8,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 50886005796528682, guid: 2876e03279b43b748835fd4bfeb7b602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4713955815358397886, guid: 2876e03279b43b748835fd4bfeb7b602, type: 3}
       propertyPath: m_Name
       value: WinterBrazier_v2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713955815358397886, guid: 2876e03279b43b748835fd4bfeb7b602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5933573641529080726, guid: 2876e03279b43b748835fd4bfeb7b602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7635745153675403348, guid: 2876e03279b43b748835fd4bfeb7b602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8857502388574379257, guid: 2876e03279b43b748835fd4bfeb7b602, type: 3}
       propertyPath: m_RootOrder

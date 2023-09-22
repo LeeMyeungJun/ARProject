@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinterTreeAppleTallG
       objectReference: {fileID: 0}
+    - target: {fileID: 1002279626, guid: e3a0371822a235a43a7f79bebddc742c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1002279629, guid: e3a0371822a235a43a7f79bebddc742c, type: 3}
       propertyPath: m_RootOrder
       value: 303

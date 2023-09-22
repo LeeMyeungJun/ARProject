@@ -8,9 +8,37 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2846202957795312159, guid: 77fad4c36aa1492488a6bcadc342aacb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2846202957903976018, guid: 77fad4c36aa1492488a6bcadc342aacb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2846202958200712087, guid: 77fad4c36aa1492488a6bcadc342aacb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2846202958430729604, guid: 77fad4c36aa1492488a6bcadc342aacb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2846202958562128440, guid: 77fad4c36aa1492488a6bcadc342aacb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2846202958644689080, guid: 77fad4c36aa1492488a6bcadc342aacb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2846202959287830353, guid: 77fad4c36aa1492488a6bcadc342aacb, type: 3}
       propertyPath: m_Name
       value: WinterChest_v3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2846202959287830353, guid: 77fad4c36aa1492488a6bcadc342aacb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2846202959287830356, guid: 77fad4c36aa1492488a6bcadc342aacb, type: 3}
       propertyPath: m_RootOrder
