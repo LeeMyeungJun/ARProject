@@ -24,7 +24,7 @@ public class GameManager : MonoSingle<GameManager>
     {
         LoadData();
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
-        castle = GameObject.Find("Castle").GetComponent<Castle>();
+        castle = GameObject.FindWithTag("Castle").GetComponent<Castle>();
         player.SetData(gameInfo.atkSpeed, gameInfo.atkDmg);
         castle.SetData(gameInfo.castleHP);//3¹ø
         curmoney = gameInfo.curmoney;

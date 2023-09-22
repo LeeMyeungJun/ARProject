@@ -7,7 +7,7 @@ public class TitleScene : MonoBehaviour
     {
         GameInfo data = new GameInfo(); // 공간을 만들어줌 .
         data.castleHP = 500;
-        data.currLv = 1;
+        data.currLv = 0;
         Util.SaveData<GameInfo>(data, "/save.dat");
         LoadingSceneController.LoadScene("GameScene");
     }

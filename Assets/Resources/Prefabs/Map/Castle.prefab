@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 5110358743344164005}
   - component: {fileID: 1276442624810598129}
   - component: {fileID: -6561406111635105884}
+  - component: {fileID: 7015231181981654960}
   m_Layer: 0
   m_Name: Castle
   m_TagString: Castle
@@ -248,6 +249,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 7, y: 6.3661513, z: 8}
   m_Center: {x: -0.008092522, y: 3.196016, z: -0.024015663}
+--- !u!114 &7015231181981654960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445260086598595256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18f59af030e589d40bdbfa4a62929400, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &703198544712612996
 GameObject:
   m_ObjectHideFlags: 0
