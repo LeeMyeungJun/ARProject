@@ -18,7 +18,8 @@ public class Player : MonoBehaviour
                 if (other.transform.tag == "Enemy")
                 {
                         delay = 0;
-                        Instantiate(effect_hit, other.point, Quaternion.identity);
+                        if(effect_hit != null)
+                            Instantiate(effect_hit, other.point, Quaternion.identity);
                         other.transform.GetComponent<Enemy>().OnTakePlayerDamage(atkDmg);
                 }
             }

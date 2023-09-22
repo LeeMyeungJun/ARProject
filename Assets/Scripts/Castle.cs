@@ -9,6 +9,9 @@ public class Castle : MonoBehaviour
     public void OnTakeDamage(float _dmg)
     {
          health -= _dmg;
+
+        if (health <= 0)
+            GameManager.Instance.GameOver();
     }
     public float getHp()
     {

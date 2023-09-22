@@ -6,14 +6,16 @@ public class EnemySpanwer : MonoBehaviour
 {
     [SerializeField] private Transform[] pos;
     private float waitSpawnTime = 0;
-    private int makeEnermyNum = 0;
+    private int makeCnt = 0;
     private bool isSpawnAble = true;
     
     make_state spawnState = make_state.init;
 
-    private void Start()
+    private int maxEnemy = 0;
+
+    public void Setup(int _num)
     {
-        
+        maxEnemy = _num;
     }
     void Update()
     {
@@ -48,15 +50,17 @@ public class EnemySpanwer : MonoBehaviour
     }
     bool IsMakeEnd()
     {
-        if (makeEnermyNum == 5) return true;
+        if (makeCnt == maxEnemy) return true;
         else return false;
     }
     IEnumerator MakeEnemy() 
     {
         isSpawnAble = false;
         yield return new WaitForSeconds(2f);
-        Instantiate(this.pos[0], this.transform.position, this.transform.rotation);
+        Transform obj = Instantiate(this.pos[0], this.transform.position, this.transform.rotation);
+        obj.GetComponent<Enemy>().SetStatus(EnemyType.runenemy);
+
         isSpawnAble = true;
-        this.makeEnermyNum += 1;
+        this.makeCnt += 1;
     }
 }

@@ -8,6 +8,7 @@ public class TitleScene : MonoBehaviour
         GameInfo data = new GameInfo(); // 공간을 만들어줌 .
         data.castleHP = 500;
         data.currLv = 0;
+        data.atkDmg = 50f;
         Util.SaveData<GameInfo>(data, "/save.dat");
         LoadingSceneController.LoadScene("GameScene");
     }
@@ -29,11 +30,5 @@ public class TitleScene : MonoBehaviour
         data = Util.LoadData<GameInfo>("/save.dat");
     }
 
-    void SaveData()
-    {
-        GameInfo data = new GameInfo();
-        data.atkSpeed = 2.0f;
-        data.atkDmg = 50.0f;
-        Util.SaveData<GameInfo>(data, "/save.dat");
-    }
+
 }
