@@ -36,7 +36,7 @@ public class LevelInfo : ScriptableObject
         //});
 
         GameObject baseObj = new GameObject("MapParent");
-		baseObj.AddComponent<NavMeshSurface>().BuildNavMesh();
+		
         for (int i = 0; i < Objets.Count; i++)
         {
             string name = Objets[i].meshName;
@@ -48,6 +48,7 @@ public class LevelInfo : ScriptableObject
             //levelInfo.Objets[i].
         }
 
+		Camera.main.GetComponent<UpdateNavMesh>().UpdateNav();
         
     }
 }

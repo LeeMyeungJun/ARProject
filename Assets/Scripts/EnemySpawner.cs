@@ -11,6 +11,10 @@ public class EnemySpanwer : MonoBehaviour
     
     make_state spawnState = make_state.init;
 
+    private void Start()
+    {
+        
+    }
     void Update()
     {
         EnermySpawn();
