@@ -17,4 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Release/ClearScene.unity
     guid: 75fd6ff9c0bca8845ac6358488d23e7a
-  m_configObjects: {}
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 7e3dcc1298a61744da0e07ad9a8294ad, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 5c3315d0106808c48b6754b2ddf9c5e0, type: 2}
