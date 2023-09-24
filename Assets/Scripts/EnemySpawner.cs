@@ -80,6 +80,7 @@ public class EnemySpanwer : MonoBehaviour
         this.makeCnt += 1;
 
         Transform obj = Instantiate(this.enemyPrefab, this.transform.position, this.transform.rotation);
+        obj.SetParent(this.transform);
         if (makeCnt == waveConfig.spawnCnt && waveConfig.isBoss)//보스 생성
         {
             obj.GetComponent<Enemy>().SetStatus(EnemyType.bossenemy);

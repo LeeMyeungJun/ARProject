@@ -14,6 +14,18 @@ public class GameManager : MonoSingle<GameManager>
     public int Money  { get { return curmoney; } }
 
     EnemySpanwer enemySpanwer;
+
+    GameObject gameParentObj = null;
+
+    GameObject gameinfoAnimObj = null;
+
+    public void SetGameParentObjActive(bool isActive,Vector3 pos ,Quaternion rot)
+    {
+        gameParentObj.SetActive(isActive);
+        gameParentObj.transform.SetPositionAndRotation(pos, rot);
+
+        gameinfoAnimObj.SetActive(!isActive);
+    }
     public void AttackCastle(float _dmg)
     {
         castle.OnTakeDamage(_dmg);
@@ -28,6 +40,7 @@ public class GameManager : MonoSingle<GameManager>
     private void Init()
     {
         LoadData();
+        gameinfoAnimObj = GameObject.Find("Txt_GameInfo"); gameinfoAnimObj.SetActive(true);
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
         castle = GameObject.FindWithTag("Castle").GetComponent<Castle>();
         enemySpanwer = GameObject.FindWithTag("Spawner").GetComponent<EnemySpanwer>();
@@ -37,6 +50,8 @@ public class GameManager : MonoSingle<GameManager>
         castle.SetData(gameInfo.castleHP);//3¹ø
         curmoney = gameInfo.curmoney;
 
+
+        gameParentObj = GameObject.Find("MapParent"); gameParentObj.SetActive(false);
         SaveData(gameInfo.currLv);
     }
 

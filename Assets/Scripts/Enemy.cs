@@ -71,8 +71,8 @@ public class Enemy : MonoBehaviour
     {
         if (collusion.transform.tag == "Castle")
         {
-            Debug.Log($"{ _health}");
-            Debug.Log("도착");
+            //Debug.Log($"{ _health}");
+            //Debug.Log("도착");
             enemyState = EnemyState.attack;
         }
         return;
@@ -93,7 +93,7 @@ public class Enemy : MonoBehaviour
         attackAble = false;
         yield return new WaitForSeconds(1.6f);
         //GameManager.Instance.OnTakeDamage(enemyDamage); // 추후 추가
-        Debug.Log("공격");
+        //Debug.Log("공격");
         attackAble = true;
         anim.SetTrigger("attack");
         GameManager.Instance.AttackCastle(enemyDamage);
