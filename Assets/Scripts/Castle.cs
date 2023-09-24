@@ -1,15 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Castle : MonoBehaviour
 {
-    private  float health = 1000;
+
+    private readonly float maxHealth = 1000;
+    private float health = 1000;
+    Slider slider;
+
+    private void Awake()
+    {
+        slider = GetComponentInChildren<Slider>();
+        slider.maxValue = maxHealth;
+    }
 
     public void OnTakeDamage(float _dmg)
     {
          health -= _dmg;
-
+        slider.value = health;
         if (health <= 0)
             GameManager.Instance.GameOver();
     }
@@ -19,6 +29,13 @@ public class Castle : MonoBehaviour
     }
     public void SetData(float _health) 
     {
-         health = _health;
+        health = _health;
+        slider.value = health;
     }
+
+    public void RepairCastle()
+    {
+        slider.value = maxHealth;
+    }
+
 }

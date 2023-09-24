@@ -8,7 +8,7 @@ public class ShopUI : MonoBehaviour
     Player player;
     Castle castle;
 
-    //public Text val_curmoney;   //  소지금
+    public Text val_curmoney;   //  소지금
     public Text val_m_atkSpeed; //  공속 증가 비용
     public Text val_m_atkDamage;   //  공격력 증가 비용
     public Text val_m_RepairCastle; //  성벽 수리 비용
@@ -29,10 +29,19 @@ public class ShopUI : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
-        castle = GameObject.Find("Castle").GetComponent<Castle>();
+        castle = GameObject.FindWithTag("Castle").GetComponent<Castle>();
+
+        val_m_atkSpeed.text = money_atkSpeed.ToString();
+        val_m_atkDamage.text = money_atkDamage.ToString();
+        val_m_RepairCastle.text = money_RepairCastle.ToString();
     }
 
-    void Show_ShopInfo()
+    private void OnEnable()
+    {
+        UpdateShopInfo();
+    }
+
+    void UpdateBtnIntractable()
     {
         btn_damage.interactable = GameManager.Instance.IsBuy(money_atkDamage);
         btn_atkSpeed.interactable = GameManager.Instance.IsBuy(money_atkSpeed);
@@ -40,6 +49,12 @@ public class ShopUI : MonoBehaviour
         //btn_Magic.interactable = GameManager.Instance.IsBuy(money_Magic);
     }
 
+    void UpdateShopInfo()
+    {
+        val_curmoney.text = GameManager.Instance.Money.ToString();
+
+        UpdateBtnIntractable();
+    }
 
 
     public void OnShop()
@@ -56,25 +71,28 @@ public class ShopUI : MonoBehaviour
     {
         if (GameManager.Instance.BuyItem(money_atkDamage))
         {
+            UpdateShopInfo();
             float dmg = player.GetAttackDmg();
-            player.SetAttackData(dmg + 0.5f);
+            player.SetAttackData(dmg + 10f);
             //money_atkDamage = 1000;
         }
     }
     public void BuyAttackSpeed()
     {
-        if (transform.GetComponent<GameManager>().BuyItem(money_atkSpeed))
+        if (GameManager.Instance.BuyItem(money_atkSpeed))
         {
+            UpdateShopInfo();
             float speed = player.GetAttackSpeed();
-            player.SetAttackSpeed(speed + 0.5f);
+            player.SetAttackSpeed(speed - 0.05f);
         }
     }
 
     public void BuyRepairCastle()
     {
-        if (transform.GetComponent<GameManager>().BuyItem(money_RepairCastle))
+        if (GameManager.Instance.BuyItem(money_RepairCastle))
         {
-            
+            UpdateShopInfo();
+            castle.RepairCastle();
         }
     }
 

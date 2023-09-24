@@ -6,18 +6,21 @@ public class GameManager : MonoSingle<GameManager>
     GameInfo gameInfo;
     LevelInfo levelInfo;
     Player player;
-    private Castle castle;
+    Castle castle;
+    EnemyWaveConfig config;
 
     int monsterCnt = 0;
     int curmoney = 0;
+    public int Money  { get { return curmoney; } }
 
     EnemySpanwer enemySpanwer;
     public void AttackCastle(float _dmg)
     {
         castle.OnTakeDamage(_dmg);
     }
-    private void Awake()
+    override protected void Awake()
     {
+        base.Awake();
         Init();
     }
 
@@ -28,14 +31,13 @@ public class GameManager : MonoSingle<GameManager>
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
         castle = GameObject.FindWithTag("Castle").GetComponent<Castle>();
         enemySpanwer = GameObject.FindWithTag("Spawner").GetComponent<EnemySpanwer>();
-        enemySpanwer.Setup((gameInfo.currLv * 3) + 5);
+        enemySpanwer.Setup(config);
         monsterCnt = (gameInfo.currLv * 3) + 5;
         player.SetData(gameInfo.atkSpeed, gameInfo.atkDmg);
         castle.SetData(gameInfo.castleHP);//3번
         curmoney = gameInfo.curmoney;
-        //맵.. Load 해주고 
-        //맵 .. AI 가 걸어다닐수있게끔 Bake 해줘야함
 
+        SaveData(gameInfo.currLv);
     }
 
     public bool IsBuy(int _Price)
@@ -65,11 +67,19 @@ public class GameManager : MonoSingle<GameManager>
 
         gameInfo = Util.LoadData<GameInfo>("/save.dat");
         LoadMapData(gameInfo.currLv);
+
+        config = Resources.Load<EnemyWaveConfig>("Config/"+gameInfo.currLv);
     }
   
     void LoadMapData(int lv)
     {
-        TextAsset textAsset = Util.LoadTextAsset("JsnLevels/" + "map_" + lv);
+        string path = "JsnLevels/" + "map_" + lv;
+        if (Util.IsTextAsset(path) == false)// 진행할스테이지가없음 다깸
+        {
+            LoadingSceneController.LoadScene("ClearScene");
+            return;
+        }
+        TextAsset textAsset = Util.LoadTextAsset(path);
         levelInfo = new LevelInfo();
         Util.LoadJsonData<LevelInfo>(textAsset,out levelInfo);
         levelInfo.LoadData();//여기서 맵로드함
@@ -85,16 +95,26 @@ public class GameManager : MonoSingle<GameManager>
         gameInfo.atkDmg = player.GetAttackDmg();
         gameInfo.currLv = lv;
         Util.SaveData<GameInfo>(gameInfo,"/save.dat");
+
+        Debug.Log("GameScene: SAVEDATA  LV :" + lv);
     }
 
-    public void DieEnemy()
+    public void DieEnemy(int _money)
     {
+        curmoney += _money;
         monsterCnt--;
         if (monsterCnt == 0)
         {
-            //승리
-            SaveData(gameInfo.currLv + 1);
-            LoadingSceneController.LoadScene("GameScene");
+            string path = "JsnLevels/" + "map_" + (gameInfo.currLv + 1).ToString();
+            if (Util.IsTextAsset(path) == false)// 진행할스테이지가없음 다깸
+            {
+                LoadingSceneController.LoadScene("ClearScene");
+            }
+            else
+            {
+                SaveData(gameInfo.currLv + 1);
+                LoadingSceneController.LoadScene("GameScene");
+            }
         }
     }
 

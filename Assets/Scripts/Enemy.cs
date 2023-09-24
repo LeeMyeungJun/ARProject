@@ -1,10 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
-using static UnityEngine.GraphicsBuffer;
 
 public enum EnemyType {walkenemy,runenemy,bossenemy}  // 에너미 타입 지정 
 enum EnemyState {move,attack} // 에너미 상태 지정 (move 는 에너미 타입 지정에 사용, attack은 공격에 사용)
@@ -15,9 +12,13 @@ public class Enemy : MonoBehaviour
     NavMeshAgent agent;
     private float _health;
     private float enemyDamage;
+    private int money;
     private bool attackAble = true;
     Slider hpBar;
 
+    
+    [SerializeField] GameObject[] models;
+    Animator anim;
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -43,25 +44,32 @@ public class Enemy : MonoBehaviour
                     agent.speed = 1f;
                     _health = 100f;
                     enemyDamage = 10;
+                    money = 50;
                     break;
                 case EnemyType.runenemy:
                     agent.speed = 2f;
                     _health = 200f;
                     enemyDamage = 20;
+                    money = 50;
                     break;
                 case EnemyType.bossenemy:
                     agent.speed = 2f;
-                    _health = 300f;
+                    _health = 1000f;
                     enemyDamage = 50;
+                    money = 50;
                     break;
             }
+
+
+        models[(int)_type].SetActive(true);
+        anim = models[(int)_type].GetComponent<Animator>();
         hpBar.maxValue = _health;
         hpBar.value = _health;
 
     }
     private void OnCollisionEnter(Collision collusion)  // 목적지 "Castle" 도달시 에너미 상태 공격으로 변경
     {
-        if (collusion.transform.name == "Castle")
+        if (collusion.transform.tag == "Castle")
         {
             Debug.Log($"{ _health}");
             Debug.Log("도착");
@@ -75,18 +83,20 @@ public class Enemy : MonoBehaviour
         hpBar.value = _health;
         if (_health <= 0)
         {
-            GameManager.Instance.DieEnemy();
+            GameManager.Instance.DieEnemy(money);
             Destroy(this.gameObject);
         }
         else return;
     }
-    IEnumerator AttackCastle () //Castle 공격 코루틴
+    IEnumerator AttackCastle() //Castle 공격 코루틴
     {
         attackAble = false;
         yield return new WaitForSeconds(1.6f);
         //GameManager.Instance.OnTakeDamage(enemyDamage); // 추후 추가
         Debug.Log("공격");
         attackAble = true;
+        anim.SetTrigger("attack");
+        GameManager.Instance.AttackCastle(enemyDamage);
     }
 
 

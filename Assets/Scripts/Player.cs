@@ -9,20 +9,25 @@ public class Player : MonoBehaviour
     [SerializeField] Transform effect_hit;    // 데미지 효과
     float delay = 0;
 
+    [SerializeField] Animation anim;
+
     void AttackEnemy()
     {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit other;
-            if (Physics.Raycast(ray, out other, 100f))
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit other;
+        if (Physics.Raycast(ray, out other, 100f))
+        {
+            if (other.transform.tag == "Enemy")
             {
-                if (other.transform.tag == "Enemy")
-                {
-                        delay = 0;
-                        if(effect_hit != null)
-                            Instantiate(effect_hit, other.point, Quaternion.identity);
-                        other.transform.GetComponent<Enemy>().OnTakePlayerDamage(atkDmg);
-                }
+                anim.Play("StaffAction");
+                    delay = 0;
+                    if(effect_hit != null)
+                    {
+                        Instantiate(effect_hit, other.point, Quaternion.identity);
+                    }
+                    other.transform.GetComponent<Enemy>().OnTakePlayerDamage(atkDmg);
             }
+        }
     }
 
     private void Update()

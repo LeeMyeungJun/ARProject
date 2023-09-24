@@ -47,8 +47,9 @@ public class LevelInfo : ScriptableObject
             obj.transform.SetParent(baseObj.transform);
             //levelInfo.Objets[i].
         }
-
-		Camera.main.GetComponent<UpdateNavMesh>().UpdateNav();
+		NavMeshSurface nav = baseObj.AddComponent<NavMeshSurface>();
+		nav.collectObjects = CollectObjects.Children;
+		nav.BuildNavMesh();
         
     }
 }

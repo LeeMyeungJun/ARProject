@@ -165,19 +165,27 @@
         },
         "scale": {
           "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": 0.6000001,
+          "x": 0.600000143,
           "y": 0.6,
-          "z": 0.6000001,
+          "z": 0.600000143,
           "normalized": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 0.5773503,
-            "y": 0.577350259,
-            "z": 0.5773503,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
+            "x": 0.577350259,
+            "y": 0.5773502,
+            "z": 0.577350259,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.5773503,
+              "y": 0.577350259,
+              "z": 0.5773503,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.00000012
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
           },
-          "magnitude": 1.03923059,
-          "sqrMagnitude": 1.08000028
+          "magnitude": 1.0392307,
+          "sqrMagnitude": 1.0800004
         }
       },
       {
@@ -11950,49 +11958,6 @@
       },
       {
         "$type": "LMJMapData, Assembly-CSharp",
-        "meshName": "Ground",
-        "pos": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
-        },
-        "rot": {
-          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0,
-          "w": 1.0,
-          "eulerAngles": {
-            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0,
-            "magnitude": 0.0,
-            "sqrMagnitude": 0.0
-          }
-        },
-        "scale": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": 1.0,
-          "y": 1.0,
-          "z": 1.0,
-          "normalized": {
-            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 0.577350259,
-            "y": 0.577350259,
-            "z": 0.577350259,
-            "magnitude": 1.0,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 1.73205078,
-          "sqrMagnitude": 3.0
-        }
-      },
-      {
-        "$type": "LMJMapData, Assembly-CSharp",
         "meshName": "Wall",
         "pos": {
           "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
@@ -12055,49 +12020,41 @@
         },
         "rot": {
           "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
-          "x": -0.318750232,
-          "y": 0.656917334,
-          "z": 0.6147262,
-          "w": 0.298277855,
+          "x": -0.318750173,
+          "y": 0.656916857,
+          "z": 0.6147266,
+          "w": 0.298278183,
           "eulerAngles": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 273.8005,
-            "y": 180.000381,
-            "z": 308.23233,
+            "x": 273.8004,
+            "y": 180.000412,
+            "z": 308.232269,
             "normalized": {
               "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-              "x": 0.6086349,
-              "y": 0.400125325,
+              "x": 0.6086348,
+              "y": 0.400125474,
               "z": 0.685173869,
-              "normalized": {
-                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-                "x": 0.608634949,
-                "y": 0.400125355,
-                "z": 0.6851739,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
             },
-            "magnitude": 449.860016,
-            "sqrMagnitude": 202374.031
+            "magnitude": 449.859924,
+            "sqrMagnitude": 202373.953
           }
         },
         "scale": {
           "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": 0.7,
-          "y": 0.7,
-          "z": 0.7,
+          "x": 0.6999999,
+          "y": 0.6999999,
+          "z": 0.700000048,
           "normalized": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
             "x": 0.577350259,
             "y": 0.577350259,
-            "z": 0.577350259,
+            "z": 0.5773503,
             "magnitude": 1.0,
-            "sqrMagnitude": 0.99999994
+            "sqrMagnitude": 1.0
           },
-          "magnitude": 1.2124356,
+          "magnitude": 1.21243548,
           "sqrMagnitude": 1.46999991
         }
       },
@@ -12122,42 +12079,58 @@
         },
         "rot": {
           "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
-          "x": -0.24021931,
-          "y": -0.6249281,
-          "z": -0.720163,
+          "x": -0.24021928,
+          "y": -0.6249282,
+          "z": -0.720163047,
           "w": 0.182002217,
           "eulerAngles": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 279.053772,
-            "y": 48.86442,
+            "x": 279.0537,
+            "y": 48.864418,
             "z": 165.989532,
             "normalized": {
               "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
               "x": 0.8498765,
-              "y": 0.148819789,
-              "z": 0.505531967,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "y": 0.1488198,
+              "z": 0.5055321,
+              "normalized": {
+                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                "x": 0.8498764,
+                "y": 0.148819789,
+                "z": 0.505532,
+                "normalized": {
+                  "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+                  "x": 0.849876463,
+                  "y": 0.1488198,
+                  "z": 0.5055321,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.0
+                },
+                "magnitude": 0.99999994,
+                "sqrMagnitude": 0.9999999
+              },
+              "magnitude": 1.00000012,
+              "sqrMagnitude": 1.00000012
             },
-            "magnitude": 328.346252,
-            "sqrMagnitude": 107811.266
+            "magnitude": 328.3462,
+            "sqrMagnitude": 107811.227
           }
         },
         "scale": {
           "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": 0.700000048,
+          "x": 0.7000001,
           "y": 0.7,
-          "z": 0.7000001,
+          "z": 0.700000167,
           "normalized": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 0.5773503,
-            "y": 0.577350259,
+            "x": 0.577350259,
+            "y": 0.5773502,
             "z": 0.5773503,
             "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
+            "sqrMagnitude": 0.99999994
           },
-          "magnitude": 1.2124356,
-          "sqrMagnitude": 1.47000015
+          "magnitude": 1.21243572,
+          "sqrMagnitude": 1.47000039
         }
       },
       {
@@ -12189,10 +12162,10 @@
         },
         "rot": {
           "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
-          "x": 0.172199368,
+          "x": 0.172199324,
           "y": -0.7877843,
           "z": -0.515716434,
-          "w": -0.2894476,
+          "w": -0.289447546,
           "eulerAngles": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
             "x": 294.184357,
@@ -12213,15 +12186,15 @@
         "scale": {
           "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
           "x": 0.7,
-          "y": 0.700000048,
-          "z": 0.7,
+          "y": 0.7000001,
+          "z": 0.6999999,
           "normalized": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
             "x": 0.577350259,
             "y": 0.5773503,
-            "z": 0.577350259,
+            "z": 0.5773502,
             "magnitude": 1.0,
-            "sqrMagnitude": 1.0
+            "sqrMagnitude": 0.99999994
           },
           "magnitude": 1.2124356,
           "sqrMagnitude": 1.47
@@ -12248,42 +12221,50 @@
         },
         "rot": {
           "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
-          "x": 0.207207918,
+          "x": 0.207207933,
           "y": 0.649704754,
-          "z": -0.0372659639,
-          "w": 0.7304518,
+          "z": -0.0372659676,
+          "w": 0.7304519,
           "eulerAngles": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 20.5567245,
-            "y": 85.71886,
-            "z": 13.2625666,
+            "x": 20.5567284,
+            "y": 85.71885,
+            "z": 13.2625656,
             "normalized": {
               "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-              "x": 0.230607942,
+              "x": 0.230608,
               "y": 0.961605,
               "z": 0.148781151,
               "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "sqrMagnitude": 1.00000012
             },
-            "magnitude": 89.14144,
-            "sqrMagnitude": 7946.197
+            "magnitude": 89.14143,
+            "sqrMagnitude": 7946.196
           }
         },
         "scale": {
           "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": 0.358548373,
+          "x": 0.3585483,
           "y": 0.3585484,
           "z": 0.03154862,
           "normalized": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 0.705742061,
+            "x": 0.705741942,
             "y": 0.7057421,
             "z": 0.0620981455,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.705742,
+              "y": 0.7057422,
+              "z": 0.0620981529,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.9999999,
+            "sqrMagnitude": 0.9999998
           },
           "magnitude": 0.5080445,
-          "sqrMagnitude": 0.2581092
+          "sqrMagnitude": 0.258109152
         }
       },
       {
@@ -12389,27 +12370,19 @@
         },
         "scale": {
           "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": 0.800000131,
+          "x": 0.80000025,
           "y": 0.8,
-          "z": 0.800000131,
+          "z": 0.80000025,
           "normalized": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 0.577350259,
-            "y": 0.5773502,
-            "z": 0.577350259,
-            "normalized": {
-              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-              "x": 0.5773503,
-              "y": 0.577350259,
-              "z": 0.5773503,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.9999999
+            "x": 0.5773503,
+            "y": 0.57735014,
+            "z": 0.5773503,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
           },
-          "magnitude": 1.38564086,
-          "sqrMagnitude": 1.92000043
+          "magnitude": 1.385641,
+          "sqrMagnitude": 1.92000079
         }
       },
       {
@@ -14985,27 +14958,19 @@
         },
         "scale": {
           "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": 1.05779994,
+          "x": 1.0578,
           "y": 1.05779982,
-          "z": 1.05779994,
+          "z": 1.0578,
           "normalized": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-            "x": 0.577350259,
+            "x": 0.5773503,
             "y": 0.5773502,
-            "z": 0.577350259,
-            "normalized": {
-              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-              "x": 0.5773503,
-              "y": 0.577350259,
-              "z": 0.5773503,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.9999999
+            "z": 0.5773503,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
           },
-          "magnitude": 1.83216321,
-          "sqrMagnitude": 3.35682178
+          "magnitude": 1.83216333,
+          "sqrMagnitude": 3.35682225
         }
       },
       {
@@ -16002,18 +15967,18 @@
           "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
           "x": -0.165201232,
           "y": 0.389551371,
-          "z": -0.07402621,
+          "z": -0.07402622,
           "w": -0.903038442,
           "eulerAngles": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
             "x": 20.8572063,
             "y": 313.387634,
-            "z": 0.305852056,
+            "z": 0.305852979,
             "normalized": {
               "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
               "x": 0.06640708,
               "y": 0.9977921,
-              "z": 0.0009737997,
+              "z": 0.0009738026,
               "magnitude": 1.0,
               "sqrMagnitude": 1.0
             },
@@ -16200,19 +16165,19 @@
         },
         "scale": {
           "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
-          "x": 0.5868645,
+          "x": 0.586864531,
           "y": 0.5868644,
-          "z": 0.5868645,
+          "z": 0.586864531,
           "normalized": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
             "x": 0.5773503,
-            "y": 0.577350259,
+            "y": 0.5773502,
             "z": 0.5773503,
             "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
+            "sqrMagnitude": 1.0
           },
-          "magnitude": 1.016479,
-          "sqrMagnitude": 1.03322971
+          "magnitude": 1.01647913,
+          "sqrMagnitude": 1.03322983
         }
       },
       {
