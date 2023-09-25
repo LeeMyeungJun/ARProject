@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
 
     void AttackEnemy()
     {
-#if !UNITY_EDITOR
+#if UNITY_EDITOR
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit other;
         if (Physics.Raycast(ray, out other, 100f))

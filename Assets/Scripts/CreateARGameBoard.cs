@@ -8,19 +8,16 @@ public class CreateARGameBoard : MonoBehaviour
     private ARPlaneManager arPlaneManager;
 
     private bool bFlag = false;
-    private Camera mainCam;
-    private void Start()
-    {
-        mainCam = Camera.main;
-    }
-#if !UNITY_EDITOR
+    private List<ARRaycastHit> hits = new List<ARRaycastHit>();
+
+#if UNITY_EDITOR
 
     private void Update()
     {
-        if (Input.touchCount == 0 && bFlag) return;
+        if (Input.touchCount == 0 || bFlag) return;
 
-        List<ARRaycastHit> hits = new List<ARRaycastHit>();
-        if (arRaycastManager.Raycast(mainCam.ScreenPointToRay(Input.GetTouch(0).position), hits, TrackableType.PlaneWithinBounds))
+        Touch touch = Input.GetTouch(0);
+        if (arRaycastManager.Raycast(touch.position,hits,TrackableType.PlaneWithinPolygon))
         {
             bFlag = true;
             Pose pose = hits[0].pose;

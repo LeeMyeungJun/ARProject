@@ -40,7 +40,7 @@ public class GameManager : MonoSingle<GameManager>
     private void Init()
     {
         LoadData();
-        gameinfoAnimObj = GameObject.Find("Txt_GameInfo"); gameinfoAnimObj.SetActive(true);
+        //gameinfoAnimObj = GameObject.Find("Txt_GameInfo"); gameinfoAnimObj.SetActive(true);
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
         castle = GameObject.FindWithTag("Castle").GetComponent<Castle>();
         enemySpanwer = GameObject.FindWithTag("Spawner").GetComponent<EnemySpanwer>();
@@ -51,7 +51,7 @@ public class GameManager : MonoSingle<GameManager>
         curmoney = gameInfo.curmoney;
 
 
-        gameParentObj = GameObject.Find("MapParent"); gameParentObj.SetActive(false);
+        gameParentObj = GameObject.Find("MapParent"); gameParentObj.SetActive(true);
         SaveData(gameInfo.currLv);
     }
 
