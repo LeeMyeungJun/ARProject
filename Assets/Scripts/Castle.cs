@@ -9,13 +9,16 @@ public class Castle : MonoBehaviour
     private readonly float maxHealth = 1000;
     private float health = 1000;
     Slider slider;
-
+    [SerializeField] GameObject antiBakeObj;
     private void Awake()
     {
         slider = GetComponentInChildren<Slider>();
         slider.maxValue = maxHealth;
     }
-
+    private void Start()
+    {
+        antiBakeObj.SetActive(false);
+    }
     public void OnTakeDamage(float _dmg)
     {
          health -= _dmg;

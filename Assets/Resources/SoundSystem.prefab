@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Collections:
-  - {fileID: 11400000, guid: 078868dab29fa364081b230e7c98fbf6, type: 2}
+  - {fileID: 11400000, guid: b1f337d22cbed144ba6c808ebddbfed9, type: 2}
   soundFxPool: {fileID: 6450544663034489191}
   soundFx3dPool: {fileID: 6450544663034489191}
   MaxSoundCount: 5

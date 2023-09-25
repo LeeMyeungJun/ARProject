@@ -8,8 +8,8 @@ public class SoundFx : MonoBehaviour
 	{ 
 		get 
 		{
-			float val = PlayerPrefs.GetFloat("SFX");
-			Source.volume = val;
+			//float val = PlayerPrefs.GetFloat("SFX");
+			//Source.volume = val;
 			return Source; 
 		} 
 		set 

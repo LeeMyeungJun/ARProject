@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40464cd192d901e43aa68c791bf83fd1, type: 3}
   m_Name: 2
   m_EditorClassIdentifier: 
-  spawnCnt: 5
-  isBoss: 1
+  spawnCnt: 8
+  isBoss: 0
   enemys: 0000000001000000
