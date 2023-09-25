@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System.Text;
@@ -75,12 +73,13 @@ public class Util
         });
         return true;
     }
+#if UNITY_EDITOR
     static public void SavePrefab(string _path,GameObject _obj)
     {
         UnityEditor.PrefabUtility.SaveAsPrefabAsset(_obj, _path); //¿˙¿Â
         UnityEditor.AssetDatabase.Refresh();
     }
-
+#endif
     static public void SaveText(string path, string contents)
     {
         StringBuilder sb = new StringBuilder();
