@@ -8,21 +8,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1436691939476664598, guid: 92484f07dac8f2342af273b0bc4d24ad, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 2909311881537776340, guid: 92484f07dac8f2342af273b0bc4d24ad, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 4260758150614595366, guid: 92484f07dac8f2342af273b0bc4d24ad, type: 3}
       propertyPath: m_Name
       value: WinterBrazier
-      objectReference: {fileID: 0}
-    - target: {fileID: 4260758150614595366, guid: 92484f07dac8f2342af273b0bc4d24ad, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4586552698207289356, guid: 92484f07dac8f2342af273b0bc4d24ad, type: 3}
       propertyPath: m_RootOrder
@@ -67,10 +55,6 @@ PrefabInstance:
     - target: {fileID: 4586552698207289356, guid: 92484f07dac8f2342af273b0bc4d24ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4691808471808485546, guid: 92484f07dac8f2342af273b0bc4d24ad, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

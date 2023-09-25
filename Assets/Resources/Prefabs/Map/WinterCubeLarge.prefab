@@ -12,10 +12,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinterCubeLarge
       objectReference: {fileID: 0}
-    - target: {fileID: 3583235072930936299, guid: dd9ef0ff88637414dacb87df33d97a63, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 4413363620013763223, guid: dd9ef0ff88637414dacb87df33d97a63, type: 3}
       propertyPath: m_RootOrder
       value: 167

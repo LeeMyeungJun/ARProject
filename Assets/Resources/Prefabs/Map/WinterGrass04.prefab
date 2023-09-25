@@ -56,10 +56,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinterGrass04
       objectReference: {fileID: 0}
-    - target: {fileID: 8300954291893363942, guid: dbe32a1b9b03b2f40bd79b61157edf80, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

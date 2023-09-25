@@ -8,10 +8,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2325187426125722888, guid: 015da0ca42aad264790326f03ec99927, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 2325187426307860975, guid: 015da0ca42aad264790326f03ec99927, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -59,30 +55,6 @@ PrefabInstance:
     - target: {fileID: 2325187426307860978, guid: 015da0ca42aad264790326f03ec99927, type: 3}
       propertyPath: m_Name
       value: WinterChest_v2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2325187426307860978, guid: 015da0ca42aad264790326f03ec99927, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 2325187426838998940, guid: 015da0ca42aad264790326f03ec99927, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 2325187426997690659, guid: 015da0ca42aad264790326f03ec99927, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 2325187427313686971, guid: 015da0ca42aad264790326f03ec99927, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 2325187427543079477, guid: 015da0ca42aad264790326f03ec99927, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 2325187427687209495, guid: 015da0ca42aad264790326f03ec99927, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

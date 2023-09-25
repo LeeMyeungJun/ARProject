@@ -56,10 +56,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinterCubeMedium
       objectReference: {fileID: 0}
-    - target: {fileID: 6126129042946296385, guid: 7ea2dd0fb00473449b677259eba93ea2, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

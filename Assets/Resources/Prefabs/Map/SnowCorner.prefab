@@ -12,10 +12,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SnowCorner
       objectReference: {fileID: 0}
-    - target: {fileID: 2236736316713023367, guid: 407f2672db34d0b46aad7351ac16d705, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 2835914961581361149, guid: 407f2672db34d0b46aad7351ac16d705, type: 3}
       propertyPath: m_RootOrder
       value: 21

@@ -12,10 +12,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SnowLine
       objectReference: {fileID: 0}
-    - target: {fileID: 1814856224715947881, guid: 82436820a1fece5449e4c4cff4d30860, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 4050278802411658056, guid: 82436820a1fece5449e4c4cff4d30860, type: 3}
       propertyPath: m_RootOrder
       value: 270
