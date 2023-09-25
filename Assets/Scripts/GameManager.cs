@@ -45,7 +45,7 @@ public class GameManager : MonoSingle<GameManager>
         castle = GameObject.FindWithTag("Castle").GetComponent<Castle>();
         enemySpanwer = GameObject.FindWithTag("Spawner").GetComponent<EnemySpanwer>();
         enemySpanwer.Setup(config);
-        monsterCnt = (gameInfo.currLv * 3) + 5;
+        monsterCnt = config.spawnCnt;
         player.SetData(gameInfo.atkSpeed, gameInfo.atkDmg);
         castle.SetData(gameInfo.castleHP);//3¹ø
         curmoney = gameInfo.curmoney;
