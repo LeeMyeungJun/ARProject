@@ -69,6 +69,7 @@ public class GameManager : MonoSingle<GameManager>
     {
         if (curmoney >= _Price)
         {
+            SoundPlayer.PlaySoundFx("shop_buyitem");
             curmoney -= _Price;
             return true; //구매성공
         }

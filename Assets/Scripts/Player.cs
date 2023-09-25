@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
         {
             if (other.transform.tag == "Enemy")
             {
+                SoundPlayer.PlaySoundFx("player_attack");
                 anim.Play("StaffAction");
                     delay = 0;
                     if(effect_hit != null)
@@ -36,6 +37,7 @@ public class Player : MonoBehaviour
         {
             if (other.transform.tag == "Enemy")
             {
+                SoundPlayer.PlaySoundFx("player_attack");
                 anim.Play("StaffAction");
                 delay = 0;
                 if(effect_hit != null)

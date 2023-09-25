@@ -83,6 +83,7 @@ public class Enemy : MonoBehaviour
         hpBar.value = _health;
         if (_health <= 0)
         {
+            SoundPlayer.PlaySoundFx("Enemy_destroy");
             GameManager.Instance.DieEnemy(money);
             Destroy(this.gameObject);
         }
