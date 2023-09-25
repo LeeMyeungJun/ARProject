@@ -5,6 +5,65 @@
     "$values": [
       {
         "$type": "LMJMapData, Assembly-CSharp",
+        "meshName": "EnemySpawner",
+        "pos": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 20.87,
+          "y": 5.23,
+          "z": -3.1,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.960091054,
+            "y": 0.2405978,
+            "z": -0.14261055,
+            "normalized": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+              "x": 0.9600911,
+              "y": 0.240597814,
+              "z": -0.142610565,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 21.7375221,
+          "sqrMagnitude": 472.519836
+        },
+        "rot": {
+          "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0,
+          "eulerAngles": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          }
+        },
+        "scale": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.73205078,
+          "sqrMagnitude": 3.0
+        }
+      },
+      {
+        "$type": "LMJMapData, Assembly-CSharp",
         "meshName": "SnowCorner",
         "pos": {
           "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
@@ -28663,10 +28722,10 @@
         },
         "rot": {
           "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
-          "x": -0.3420201,
+          "x": 0.3420202,
           "y": 0.0,
           "z": 0.0,
-          "w": 0.9396927,
+          "w": -0.9396926,
           "eulerAngles": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
             "x": 320.0,
@@ -28722,10 +28781,10 @@
         },
         "rot": {
           "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
-          "x": -0.3420201,
+          "x": 0.3420202,
           "y": 0.0,
           "z": 0.0,
-          "w": 0.9396927,
+          "w": -0.9396926,
           "eulerAngles": {
             "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
             "x": 320.0,
@@ -29729,7 +29788,7 @@
         "rot": {
           "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
           "x": 0.0,
-          "y": 0.106056042,
+          "y": 0.106056035,
           "z": 0.0,
           "w": 0.994360149,
           "eulerAngles": {
@@ -45820,7 +45879,7 @@
         "rot": {
           "$type": "UnityEngine.Quaternion, UnityEngine.CoreModule",
           "x": 0.0,
-          "y": 0.106056042,
+          "y": 0.106056035,
           "z": 0.0,
           "w": 0.994360149,
           "eulerAngles": {

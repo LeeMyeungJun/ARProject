@@ -21,8 +21,10 @@ public class Player : MonoBehaviour
 #if UNITY_EDITOR
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit other;
+
         if (Physics.Raycast(ray, out other, Camera.main.farClipPlane, layerMask))
         {
+
             if (other.transform.tag == "Enemy")
             {
                 SoundPlayer.PlaySoundFx("player_attack");
@@ -64,7 +66,11 @@ public class Player : MonoBehaviour
         {
 
             if(Input.GetMouseButtonDown(0))
+            {
+                Debug.DrawRay(Camera.main.transform.position, Camera.main.ScreenToWorldPoint(Input.mousePosition) - Camera.main.transform.position, Color.red);
+
                 AttackEnemy();
+            }
         }
 #endif
 
