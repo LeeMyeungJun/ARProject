@@ -11,29 +11,34 @@ public class Player : MonoBehaviour
 
     [SerializeField] Animation anim;
 
+    int layerMask;
+    private void Start()
+    {
+        layerMask = 1 << LayerMask.NameToLayer("Enemy");
+    }
     void AttackEnemy()
     {
 #if UNITY_EDITOR
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit other;
-        if (Physics.Raycast(ray, out other, 100f))
+        if (Physics.Raycast(ray, out other, Camera.main.farClipPlane, layerMask))
         {
             if (other.transform.tag == "Enemy")
             {
                 SoundPlayer.PlaySoundFx("player_attack");
                 anim.Play("StaffAction");
-                    delay = 0;
-                    if(effect_hit != null)
-                    {
-                        Instantiate(effect_hit, other.point, Quaternion.identity);
-                    }
-                    other.transform.GetComponent<Enemy>().OnTakePlayerDamage(atkDmg);
+                delay = 0;
+                if(effect_hit != null)
+                {
+                    Instantiate(effect_hit, other.point, Quaternion.identity);
+                }
+                other.transform.GetComponent<Enemy>().OnTakePlayerDamage(atkDmg);
             }
         }
 #else
         Ray ray = Camera.main.ViewportPointToRay(new Vector2(0.5f,0.5f));
         RaycastHit other;
-        if (Physics.Raycast(ray, out other, Camera.main.farClipPlane))
+        if (Physics.Raycast(ray, out other, Camera.main.farClipPlane,layerMask))
         {
             if (other.transform.tag == "Enemy")
             {
